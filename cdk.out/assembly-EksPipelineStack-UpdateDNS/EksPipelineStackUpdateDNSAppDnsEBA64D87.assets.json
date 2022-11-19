@@ -1,0 +1,20 @@
+{
+  "version": "20.0.0",
+  "files": {
+    "541a9ff6326bcab7c33efb0c6cd5d30599e22c3b2733917400e1c2b5680824e2": {
+      "source": {
+        "path": "EksPipelineStackUpdateDNSAppDnsEBA64D87.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "312422985030-us-west-2": {
+          "bucketName": "cdk-hnb659fds-assets-312422985030-us-west-2",
+          "objectKey": "541a9ff6326bcab7c33efb0c6cd5d30599e22c3b2733917400e1c2b5680824e2.json",
+          "region": "us-west-2",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::312422985030:role/cdk-hnb659fds-file-publishing-role-312422985030-us-west-2"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
