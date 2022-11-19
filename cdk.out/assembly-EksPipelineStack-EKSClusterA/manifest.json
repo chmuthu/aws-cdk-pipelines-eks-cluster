@@ -21,7 +21,7 @@
         "validateOnSynth": true,
         "assumeRoleArn": "arn:${AWS::Partition}:iam::312422985030:role/cdk-hnb659fds-deploy-role-312422985030-us-west-2",
         "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::312422985030:role/cdk-hnb659fds-cfn-exec-role-312422985030-us-west-2",
-        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-312422985030-us-west-2/393609a8efa50bcf49dd4e25490b8ce8ad1d9009b824405430056549b5c76736.json",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-312422985030-us-west-2/62d838a304211153ffe50077e1e954548c0cd19130bcba6da2fb6607a9891672.json",
         "requiresBootstrapStackVersion": 6,
         "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
         "additionalDependencies": [
@@ -4210,16 +4210,5 @@
       },
       "displayName": "EksPipelineStack/EKSClusterA/EKSCluster"
     }
-  },
-  "missing": [
-    {
-      "key": "availability-zones:account=312422985030:region=us-west-2",
-      "provider": "availability-zones",
-      "props": {
-        "account": "312422985030",
-        "region": "us-west-2",
-        "lookupRoleArn": "arn:${AWS::Partition}:iam::312422985030:role/cdk-hnb659fds-lookup-role-312422985030-us-west-2"
-      }
-    }
-  ]
+  }
 }

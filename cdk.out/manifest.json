@@ -1564,16 +1564,5 @@
       },
       "displayName": "EksPipelineStack"
     }
-  },
-  "missing": [
-    {
-      "key": "availability-zones:account=312422985030:region=us-west-2",
-      "provider": "availability-zones",
-      "props": {
-        "account": "312422985030",
-        "region": "us-west-2",
-        "lookupRoleArn": "arn:${AWS::Partition}:iam::312422985030:role/cdk-hnb659fds-lookup-role-312422985030-us-west-2"
-      }
-    }
-  ]
+  }
 }
