@@ -11,7 +11,7 @@
     },
     "EksPipelineStackEKSClusterAEKSClusterC0C47102": {
       "type": "aws:cloudformation:stack",
-      "environment": "aws://312422985030/us-west-2",
+      "environment": "aws://312422985030/us-west-1",
       "properties": {
         "templateFile": "EksPipelineStackEKSClusterAEKSClusterC0C47102.template.json",
         "tags": {
@@ -19,16 +19,16 @@
           "Environment": "EKSClusterA"
         },
         "validateOnSynth": true,
-        "assumeRoleArn": "arn:${AWS::Partition}:iam::312422985030:role/cdk-hnb659fds-deploy-role-312422985030-us-west-2",
-        "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::312422985030:role/cdk-hnb659fds-cfn-exec-role-312422985030-us-west-2",
-        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-312422985030-us-west-2/62d838a304211153ffe50077e1e954548c0cd19130bcba6da2fb6607a9891672.json",
+        "assumeRoleArn": "arn:${AWS::Partition}:iam::312422985030:role/cdk-hnb659fds-deploy-role-312422985030-us-west-1",
+        "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::312422985030:role/cdk-hnb659fds-cfn-exec-role-312422985030-us-west-1",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-312422985030-us-west-1/03709542c197f1e2715fdd2ef8929e3a822e8c079b7668959a9afa1039410ab7.json",
         "requiresBootstrapStackVersion": 6,
         "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
         "additionalDependencies": [
           "EksPipelineStackEKSClusterAEKSClusterC0C47102.assets"
         ],
         "lookupRole": {
-          "arn": "arn:${AWS::Partition}:iam::312422985030:role/cdk-hnb659fds-lookup-role-312422985030-us-west-2",
+          "arn": "arn:${AWS::Partition}:iam::312422985030:role/cdk-hnb659fds-lookup-role-312422985030-us-west-1",
           "requiresBootstrapStackVersion": 8,
           "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
         },
@@ -503,201 +503,6 @@
             ]
           }
         ],
-        "/EksPipelineStack/EKSClusterA/EKSCluster/Vpc/PublicSubnet3/Subnet": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "VpcPublicSubnet3SubnetBE12F0B6",
-            "trace": [
-              "new Subnet (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1667:20)",
-              "new PublicSubnet (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1906:5)",
-              "/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1507:32",
-              "Array.forEach (<anonymous>)",
-              "Vpc.createSubnetResources (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1478:28)",
-              "Vpc.createSubnets (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1473:12)",
-              "new Vpc (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1345:10)",
-              "new EksClusterStack (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/lib/eks-cluster-stack.ts:25:17)",
-              "new EksClusterStage (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/lib/eks-cluster-stage.ts:15:5)",
-              "new EksPipelineStack (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/lib/eks-pipeline-stack.ts:35:30)",
-              "Object.<anonymous> (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/bin/eks-pipeline.ts:7:1)",
-              "Module._compile (node:internal/modules/cjs/loader:1155:14)",
-              "Module.m._compile (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/index.ts:1056:23)",
-              "Module._extensions..js (node:internal/modules/cjs/loader:1209:10)",
-              "Object.require.extensions.<computed> [as .ts] (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/index.ts:1059:12)",
-              "Module.load (node:internal/modules/cjs/loader:1033:32)",
-              "Function.Module._load (node:internal/modules/cjs/loader:868:12)",
-              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
-              "main (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/bin.ts:198:14)",
-              "Object.<anonymous> (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/bin.ts:288:3)",
-              "Module._compile (node:internal/modules/cjs/loader:1155:14)",
-              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)",
-              "Module.load (node:internal/modules/cjs/loader:1033:32)",
-              "Function.Module._load (node:internal/modules/cjs/loader:868:12)",
-              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
-              "node:internal/main/run_main_module:22:47"
-            ]
-          }
-        ],
-        "/EksPipelineStack/EKSClusterA/EKSCluster/Vpc/PublicSubnet3/RouteTable": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "VpcPublicSubnet3RouteTable93458DBB",
-            "trace": [
-              "new Subnet (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1685:19)",
-              "new PublicSubnet (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1906:5)",
-              "/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1507:32",
-              "Array.forEach (<anonymous>)",
-              "Vpc.createSubnetResources (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1478:28)",
-              "Vpc.createSubnets (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1473:12)",
-              "new Vpc (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1345:10)",
-              "new EksClusterStack (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/lib/eks-cluster-stack.ts:25:17)",
-              "new EksClusterStage (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/lib/eks-cluster-stage.ts:15:5)",
-              "new EksPipelineStack (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/lib/eks-pipeline-stack.ts:35:30)",
-              "Object.<anonymous> (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/bin/eks-pipeline.ts:7:1)",
-              "Module._compile (node:internal/modules/cjs/loader:1155:14)",
-              "Module.m._compile (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/index.ts:1056:23)",
-              "Module._extensions..js (node:internal/modules/cjs/loader:1209:10)",
-              "Object.require.extensions.<computed> [as .ts] (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/index.ts:1059:12)",
-              "Module.load (node:internal/modules/cjs/loader:1033:32)",
-              "Function.Module._load (node:internal/modules/cjs/loader:868:12)",
-              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
-              "main (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/bin.ts:198:14)",
-              "Object.<anonymous> (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/bin.ts:288:3)",
-              "Module._compile (node:internal/modules/cjs/loader:1155:14)",
-              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)",
-              "Module.load (node:internal/modules/cjs/loader:1033:32)",
-              "Function.Module._load (node:internal/modules/cjs/loader:868:12)",
-              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
-              "node:internal/main/run_main_module:22:47"
-            ]
-          }
-        ],
-        "/EksPipelineStack/EKSClusterA/EKSCluster/Vpc/PublicSubnet3/RouteTableAssociation": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "VpcPublicSubnet3RouteTableAssociation1F1EDF02",
-            "trace": [
-              "new Subnet (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1691:5)",
-              "new PublicSubnet (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1906:5)",
-              "/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1507:32",
-              "Array.forEach (<anonymous>)",
-              "Vpc.createSubnetResources (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1478:28)",
-              "Vpc.createSubnets (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1473:12)",
-              "new Vpc (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1345:10)",
-              "new EksClusterStack (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/lib/eks-cluster-stack.ts:25:17)",
-              "new EksClusterStage (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/lib/eks-cluster-stage.ts:15:5)",
-              "new EksPipelineStack (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/lib/eks-pipeline-stack.ts:35:30)",
-              "Object.<anonymous> (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/bin/eks-pipeline.ts:7:1)",
-              "Module._compile (node:internal/modules/cjs/loader:1155:14)",
-              "Module.m._compile (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/index.ts:1056:23)",
-              "Module._extensions..js (node:internal/modules/cjs/loader:1209:10)",
-              "Object.require.extensions.<computed> [as .ts] (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/index.ts:1059:12)",
-              "Module.load (node:internal/modules/cjs/loader:1033:32)",
-              "Function.Module._load (node:internal/modules/cjs/loader:868:12)",
-              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
-              "main (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/bin.ts:198:14)",
-              "Object.<anonymous> (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/bin.ts:288:3)",
-              "Module._compile (node:internal/modules/cjs/loader:1155:14)",
-              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)",
-              "Module.load (node:internal/modules/cjs/loader:1033:32)",
-              "Function.Module._load (node:internal/modules/cjs/loader:868:12)",
-              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
-              "node:internal/main/run_main_module:22:47"
-            ]
-          }
-        ],
-        "/EksPipelineStack/EKSClusterA/EKSCluster/Vpc/PublicSubnet3/DefaultRoute": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "VpcPublicSubnet3DefaultRoute4697774F",
-            "trace": [
-              "PublicSubnet.addDefaultInternetRoute (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1707:19)",
-              "/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1364:22",
-              "Array.forEach (<anonymous>)",
-              "new Vpc (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1363:46)",
-              "new EksClusterStack (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/lib/eks-cluster-stack.ts:25:17)",
-              "new EksClusterStage (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/lib/eks-cluster-stage.ts:15:5)",
-              "new EksPipelineStack (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/lib/eks-pipeline-stack.ts:35:30)",
-              "Object.<anonymous> (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/bin/eks-pipeline.ts:7:1)",
-              "Module._compile (node:internal/modules/cjs/loader:1155:14)",
-              "Module.m._compile (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/index.ts:1056:23)",
-              "Module._extensions..js (node:internal/modules/cjs/loader:1209:10)",
-              "Object.require.extensions.<computed> [as .ts] (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/index.ts:1059:12)",
-              "Module.load (node:internal/modules/cjs/loader:1033:32)",
-              "Function.Module._load (node:internal/modules/cjs/loader:868:12)",
-              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
-              "main (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/bin.ts:198:14)",
-              "Object.<anonymous> (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/bin.ts:288:3)",
-              "Module._compile (node:internal/modules/cjs/loader:1155:14)",
-              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)",
-              "Module.load (node:internal/modules/cjs/loader:1033:32)",
-              "Function.Module._load (node:internal/modules/cjs/loader:868:12)",
-              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
-              "node:internal/main/run_main_module:22:47"
-            ]
-          }
-        ],
-        "/EksPipelineStack/EKSClusterA/EKSCluster/Vpc/PublicSubnet3/EIP": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "VpcPublicSubnet3EIP3A666A23",
-            "trace": [
-              "PublicSubnet.addNatGateway (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1918:40)",
-              "NatGatewayProvider.configureNat (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/nat.ts:237:27)",
-              "Vpc.createNatGateways (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1448:14)",
-              "new Vpc (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1370:14)",
-              "new EksClusterStack (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/lib/eks-cluster-stack.ts:25:17)",
-              "new EksClusterStage (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/lib/eks-cluster-stage.ts:15:5)",
-              "new EksPipelineStack (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/lib/eks-pipeline-stack.ts:35:30)",
-              "Object.<anonymous> (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/bin/eks-pipeline.ts:7:1)",
-              "Module._compile (node:internal/modules/cjs/loader:1155:14)",
-              "Module.m._compile (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/index.ts:1056:23)",
-              "Module._extensions..js (node:internal/modules/cjs/loader:1209:10)",
-              "Object.require.extensions.<computed> [as .ts] (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/index.ts:1059:12)",
-              "Module.load (node:internal/modules/cjs/loader:1033:32)",
-              "Function.Module._load (node:internal/modules/cjs/loader:868:12)",
-              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
-              "main (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/bin.ts:198:14)",
-              "Object.<anonymous> (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/bin.ts:288:3)",
-              "Module._compile (node:internal/modules/cjs/loader:1155:14)",
-              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)",
-              "Module.load (node:internal/modules/cjs/loader:1033:32)",
-              "Function.Module._load (node:internal/modules/cjs/loader:868:12)",
-              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
-              "node:internal/main/run_main_module:22:47"
-            ]
-          }
-        ],
-        "/EksPipelineStack/EKSClusterA/EKSCluster/Vpc/PublicSubnet3/NATGateway": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "VpcPublicSubnet3NATGateway7640CD1D",
-            "trace": [
-              "PublicSubnet.addNatGateway (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1916:17)",
-              "NatGatewayProvider.configureNat (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/nat.ts:237:27)",
-              "Vpc.createNatGateways (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1448:14)",
-              "new Vpc (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1370:14)",
-              "new EksClusterStack (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/lib/eks-cluster-stack.ts:25:17)",
-              "new EksClusterStage (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/lib/eks-cluster-stage.ts:15:5)",
-              "new EksPipelineStack (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/lib/eks-pipeline-stack.ts:35:30)",
-              "Object.<anonymous> (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/bin/eks-pipeline.ts:7:1)",
-              "Module._compile (node:internal/modules/cjs/loader:1155:14)",
-              "Module.m._compile (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/index.ts:1056:23)",
-              "Module._extensions..js (node:internal/modules/cjs/loader:1209:10)",
-              "Object.require.extensions.<computed> [as .ts] (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/index.ts:1059:12)",
-              "Module.load (node:internal/modules/cjs/loader:1033:32)",
-              "Function.Module._load (node:internal/modules/cjs/loader:868:12)",
-              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
-              "main (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/bin.ts:198:14)",
-              "Object.<anonymous> (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/bin.ts:288:3)",
-              "Module._compile (node:internal/modules/cjs/loader:1155:14)",
-              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)",
-              "Module.load (node:internal/modules/cjs/loader:1033:32)",
-              "Function.Module._load (node:internal/modules/cjs/loader:868:12)",
-              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
-              "node:internal/main/run_main_module:22:47"
-            ]
-          }
-        ],
         "/EksPipelineStack/EKSClusterA/EKSCluster/Vpc/PrivateSubnet1/Subnet": [
           {
             "type": "aws:cdk:logicalId",
@@ -938,140 +743,6 @@
           {
             "type": "aws:cdk:logicalId",
             "data": "VpcPrivateSubnet2DefaultRoute060D2087",
-            "trace": [
-              "PrivateSubnet.addRoute (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1753:19)",
-              "NatGatewayProvider.configureSubnet (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/nat.ts:251:12)",
-              "NatGatewayProvider.configureNat (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/nat.ts:244:12)",
-              "Vpc.createNatGateways (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1448:14)",
-              "new Vpc (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1370:14)",
-              "new EksClusterStack (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/lib/eks-cluster-stack.ts:25:17)",
-              "new EksClusterStage (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/lib/eks-cluster-stage.ts:15:5)",
-              "new EksPipelineStack (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/lib/eks-pipeline-stack.ts:35:30)",
-              "Object.<anonymous> (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/bin/eks-pipeline.ts:7:1)",
-              "Module._compile (node:internal/modules/cjs/loader:1155:14)",
-              "Module.m._compile (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/index.ts:1056:23)",
-              "Module._extensions..js (node:internal/modules/cjs/loader:1209:10)",
-              "Object.require.extensions.<computed> [as .ts] (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/index.ts:1059:12)",
-              "Module.load (node:internal/modules/cjs/loader:1033:32)",
-              "Function.Module._load (node:internal/modules/cjs/loader:868:12)",
-              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
-              "main (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/bin.ts:198:14)",
-              "Object.<anonymous> (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/bin.ts:288:3)",
-              "Module._compile (node:internal/modules/cjs/loader:1155:14)",
-              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)",
-              "Module.load (node:internal/modules/cjs/loader:1033:32)",
-              "Function.Module._load (node:internal/modules/cjs/loader:868:12)",
-              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
-              "node:internal/main/run_main_module:22:47"
-            ]
-          }
-        ],
-        "/EksPipelineStack/EKSClusterA/EKSCluster/Vpc/PrivateSubnet3/Subnet": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "VpcPrivateSubnet3SubnetF258B56E",
-            "trace": [
-              "new Subnet (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1667:20)",
-              "new PrivateSubnet (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1944:5)",
-              "/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1513:33",
-              "Array.forEach (<anonymous>)",
-              "Vpc.createSubnetResources (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1478:28)",
-              "Vpc.createSubnets (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1473:12)",
-              "new Vpc (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1345:10)",
-              "new EksClusterStack (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/lib/eks-cluster-stack.ts:25:17)",
-              "new EksClusterStage (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/lib/eks-cluster-stage.ts:15:5)",
-              "new EksPipelineStack (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/lib/eks-pipeline-stack.ts:35:30)",
-              "Object.<anonymous> (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/bin/eks-pipeline.ts:7:1)",
-              "Module._compile (node:internal/modules/cjs/loader:1155:14)",
-              "Module.m._compile (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/index.ts:1056:23)",
-              "Module._extensions..js (node:internal/modules/cjs/loader:1209:10)",
-              "Object.require.extensions.<computed> [as .ts] (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/index.ts:1059:12)",
-              "Module.load (node:internal/modules/cjs/loader:1033:32)",
-              "Function.Module._load (node:internal/modules/cjs/loader:868:12)",
-              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
-              "main (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/bin.ts:198:14)",
-              "Object.<anonymous> (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/bin.ts:288:3)",
-              "Module._compile (node:internal/modules/cjs/loader:1155:14)",
-              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)",
-              "Module.load (node:internal/modules/cjs/loader:1033:32)",
-              "Function.Module._load (node:internal/modules/cjs/loader:868:12)",
-              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
-              "node:internal/main/run_main_module:22:47"
-            ]
-          }
-        ],
-        "/EksPipelineStack/EKSClusterA/EKSCluster/Vpc/PrivateSubnet3/RouteTable": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "VpcPrivateSubnet3RouteTableD98824C7",
-            "trace": [
-              "new Subnet (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1685:19)",
-              "new PrivateSubnet (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1944:5)",
-              "/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1513:33",
-              "Array.forEach (<anonymous>)",
-              "Vpc.createSubnetResources (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1478:28)",
-              "Vpc.createSubnets (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1473:12)",
-              "new Vpc (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1345:10)",
-              "new EksClusterStack (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/lib/eks-cluster-stack.ts:25:17)",
-              "new EksClusterStage (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/lib/eks-cluster-stage.ts:15:5)",
-              "new EksPipelineStack (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/lib/eks-pipeline-stack.ts:35:30)",
-              "Object.<anonymous> (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/bin/eks-pipeline.ts:7:1)",
-              "Module._compile (node:internal/modules/cjs/loader:1155:14)",
-              "Module.m._compile (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/index.ts:1056:23)",
-              "Module._extensions..js (node:internal/modules/cjs/loader:1209:10)",
-              "Object.require.extensions.<computed> [as .ts] (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/index.ts:1059:12)",
-              "Module.load (node:internal/modules/cjs/loader:1033:32)",
-              "Function.Module._load (node:internal/modules/cjs/loader:868:12)",
-              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
-              "main (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/bin.ts:198:14)",
-              "Object.<anonymous> (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/bin.ts:288:3)",
-              "Module._compile (node:internal/modules/cjs/loader:1155:14)",
-              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)",
-              "Module.load (node:internal/modules/cjs/loader:1033:32)",
-              "Function.Module._load (node:internal/modules/cjs/loader:868:12)",
-              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
-              "node:internal/main/run_main_module:22:47"
-            ]
-          }
-        ],
-        "/EksPipelineStack/EKSClusterA/EKSCluster/Vpc/PrivateSubnet3/RouteTableAssociation": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "VpcPrivateSubnet3RouteTableAssociation16BDDC43",
-            "trace": [
-              "new Subnet (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1691:5)",
-              "new PrivateSubnet (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1944:5)",
-              "/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1513:33",
-              "Array.forEach (<anonymous>)",
-              "Vpc.createSubnetResources (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1478:28)",
-              "Vpc.createSubnets (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1473:12)",
-              "new Vpc (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1345:10)",
-              "new EksClusterStack (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/lib/eks-cluster-stack.ts:25:17)",
-              "new EksClusterStage (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/lib/eks-cluster-stage.ts:15:5)",
-              "new EksPipelineStack (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/lib/eks-pipeline-stack.ts:35:30)",
-              "Object.<anonymous> (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/bin/eks-pipeline.ts:7:1)",
-              "Module._compile (node:internal/modules/cjs/loader:1155:14)",
-              "Module.m._compile (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/index.ts:1056:23)",
-              "Module._extensions..js (node:internal/modules/cjs/loader:1209:10)",
-              "Object.require.extensions.<computed> [as .ts] (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/index.ts:1059:12)",
-              "Module.load (node:internal/modules/cjs/loader:1033:32)",
-              "Function.Module._load (node:internal/modules/cjs/loader:868:12)",
-              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
-              "main (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/bin.ts:198:14)",
-              "Object.<anonymous> (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/bin.ts:288:3)",
-              "Module._compile (node:internal/modules/cjs/loader:1155:14)",
-              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)",
-              "Module.load (node:internal/modules/cjs/loader:1033:32)",
-              "Function.Module._load (node:internal/modules/cjs/loader:868:12)",
-              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
-              "node:internal/main/run_main_module:22:47"
-            ]
-          }
-        ],
-        "/EksPipelineStack/EKSClusterA/EKSCluster/Vpc/PrivateSubnet3/DefaultRoute": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "VpcPrivateSubnet3DefaultRoute94B74F0D",
             "trace": [
               "PrivateSubnet.addRoute (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1753:19)",
               "NatGatewayProvider.configureSubnet (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/aws-ec2/lib/nat.ts:251:12)",
@@ -3603,40 +3274,6 @@
           {
             "type": "aws:cdk:logicalId",
             "data": "referencetoEksPipelineStackEKSClusterAEKSClusterVpcPrivateSubnet2SubnetADA63100Ref",
-            "trace": [
-              "createNestedStackParameter (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/core/lib/private/refs.ts:185:13)",
-              "resolveValue (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/core/lib/private/refs.ts:68:12)",
-              "Object.resolveReferences (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/core/lib/private/refs.ts:30:24)",
-              "Object.prepareApp (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/core/lib/private/prepare-app.ts:31:3)",
-              "Object.synthesize (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/core/lib/private/synthesis.ts:24:3)",
-              "EksClusterStage.synth (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/core/lib/stage.ts:180:23)",
-              "Object.pipelineSynth (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/pipelines/lib/private/construct-internals.ts:27:16)",
-              "Function.fromStage (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/pipelines/lib/blueprint/stage-deployment.ts:55:22)",
-              "Wave.addStage (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/pipelines/lib/blueprint/wave.ts:57:33)",
-              "new EksPipelineStack (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/lib/eks-pipeline-stack.ts:60:20)",
-              "Object.<anonymous> (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/bin/eks-pipeline.ts:7:1)",
-              "Module._compile (node:internal/modules/cjs/loader:1155:14)",
-              "Module.m._compile (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/index.ts:1056:23)",
-              "Module._extensions..js (node:internal/modules/cjs/loader:1209:10)",
-              "Object.require.extensions.<computed> [as .ts] (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/index.ts:1059:12)",
-              "Module.load (node:internal/modules/cjs/loader:1033:32)",
-              "Function.Module._load (node:internal/modules/cjs/loader:868:12)",
-              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
-              "main (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/bin.ts:198:14)",
-              "Object.<anonymous> (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/ts-node/src/bin.ts:288:3)",
-              "Module._compile (node:internal/modules/cjs/loader:1155:14)",
-              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)",
-              "Module.load (node:internal/modules/cjs/loader:1033:32)",
-              "Function.Module._load (node:internal/modules/cjs/loader:868:12)",
-              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
-              "node:internal/main/run_main_module:22:47"
-            ]
-          }
-        ],
-        "/EksPipelineStack/EKSClusterA/EKSCluster/@aws-cdk--aws-eks.KubectlProvider/reference-to-EksPipelineStackEKSClusterAEKSClusterVpcPrivateSubnet3Subnet4CA62B35Ref": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "referencetoEksPipelineStackEKSClusterAEKSClusterVpcPrivateSubnet3Subnet4CA62B35Ref",
             "trace": [
               "createNestedStackParameter (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/core/lib/private/refs.ts:185:13)",
               "resolveValue (/home/ec2-user/environment/aws-cdk-pipelines-eks-cluster/node_modules/@aws-cdk/core/lib/private/refs.ts:68:12)",

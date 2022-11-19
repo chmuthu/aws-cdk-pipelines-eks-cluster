@@ -24,8 +24,8 @@
     "VpcId": {
      "Ref": "Vpc8378EB38"
     },
-    "AvailabilityZone": "us-west-2a",
-    "CidrBlock": "10.0.0.0/19",
+    "AvailabilityZone": "us-west-1b",
+    "CidrBlock": "10.0.0.0/18",
     "MapPublicIpOnLaunch": true,
     "Tags": [
      {
@@ -155,8 +155,8 @@
     "VpcId": {
      "Ref": "Vpc8378EB38"
     },
-    "AvailabilityZone": "us-west-2b",
-    "CidrBlock": "10.0.32.0/19",
+    "AvailabilityZone": "us-west-1c",
+    "CidrBlock": "10.0.64.0/18",
     "MapPublicIpOnLaunch": true,
     "Tags": [
      {
@@ -280,145 +280,14 @@
     "aws:cdk:path": "EksPipelineStack/EKSClusterB/EKSCluster/Vpc/PublicSubnet2/NATGateway"
    }
   },
-  "VpcPublicSubnet3SubnetBE12F0B6": {
-   "Type": "AWS::EC2::Subnet",
-   "Properties": {
-    "VpcId": {
-     "Ref": "Vpc8378EB38"
-    },
-    "AvailabilityZone": "us-west-2c",
-    "CidrBlock": "10.0.64.0/19",
-    "MapPublicIpOnLaunch": true,
-    "Tags": [
-     {
-      "Key": "aws-cdk:subnet-name",
-      "Value": "Public"
-     },
-     {
-      "Key": "aws-cdk:subnet-type",
-      "Value": "Public"
-     },
-     {
-      "Key": "kubernetes.io/role/elb",
-      "Value": "1"
-     },
-     {
-      "Key": "Name",
-      "Value": "EksPipelineStack/EKSClusterB/EKSCluster/Vpc/PublicSubnet3"
-     }
-    ]
-   },
-   "Metadata": {
-    "aws:cdk:path": "EksPipelineStack/EKSClusterB/EKSCluster/Vpc/PublicSubnet3/Subnet"
-   }
-  },
-  "VpcPublicSubnet3RouteTable93458DBB": {
-   "Type": "AWS::EC2::RouteTable",
-   "Properties": {
-    "VpcId": {
-     "Ref": "Vpc8378EB38"
-    },
-    "Tags": [
-     {
-      "Key": "kubernetes.io/role/elb",
-      "Value": "1"
-     },
-     {
-      "Key": "Name",
-      "Value": "EksPipelineStack/EKSClusterB/EKSCluster/Vpc/PublicSubnet3"
-     }
-    ]
-   },
-   "Metadata": {
-    "aws:cdk:path": "EksPipelineStack/EKSClusterB/EKSCluster/Vpc/PublicSubnet3/RouteTable"
-   }
-  },
-  "VpcPublicSubnet3RouteTableAssociation1F1EDF02": {
-   "Type": "AWS::EC2::SubnetRouteTableAssociation",
-   "Properties": {
-    "RouteTableId": {
-     "Ref": "VpcPublicSubnet3RouteTable93458DBB"
-    },
-    "SubnetId": {
-     "Ref": "VpcPublicSubnet3SubnetBE12F0B6"
-    }
-   },
-   "Metadata": {
-    "aws:cdk:path": "EksPipelineStack/EKSClusterB/EKSCluster/Vpc/PublicSubnet3/RouteTableAssociation"
-   }
-  },
-  "VpcPublicSubnet3DefaultRoute4697774F": {
-   "Type": "AWS::EC2::Route",
-   "Properties": {
-    "RouteTableId": {
-     "Ref": "VpcPublicSubnet3RouteTable93458DBB"
-    },
-    "DestinationCidrBlock": "0.0.0.0/0",
-    "GatewayId": {
-     "Ref": "VpcIGWD7BA715C"
-    }
-   },
-   "DependsOn": [
-    "VpcVPCGWBF912B6E"
-   ],
-   "Metadata": {
-    "aws:cdk:path": "EksPipelineStack/EKSClusterB/EKSCluster/Vpc/PublicSubnet3/DefaultRoute"
-   }
-  },
-  "VpcPublicSubnet3EIP3A666A23": {
-   "Type": "AWS::EC2::EIP",
-   "Properties": {
-    "Domain": "vpc",
-    "Tags": [
-     {
-      "Key": "kubernetes.io/role/elb",
-      "Value": "1"
-     },
-     {
-      "Key": "Name",
-      "Value": "EksPipelineStack/EKSClusterB/EKSCluster/Vpc/PublicSubnet3"
-     }
-    ]
-   },
-   "Metadata": {
-    "aws:cdk:path": "EksPipelineStack/EKSClusterB/EKSCluster/Vpc/PublicSubnet3/EIP"
-   }
-  },
-  "VpcPublicSubnet3NATGateway7640CD1D": {
-   "Type": "AWS::EC2::NatGateway",
-   "Properties": {
-    "SubnetId": {
-     "Ref": "VpcPublicSubnet3SubnetBE12F0B6"
-    },
-    "AllocationId": {
-     "Fn::GetAtt": [
-      "VpcPublicSubnet3EIP3A666A23",
-      "AllocationId"
-     ]
-    },
-    "Tags": [
-     {
-      "Key": "kubernetes.io/role/elb",
-      "Value": "1"
-     },
-     {
-      "Key": "Name",
-      "Value": "EksPipelineStack/EKSClusterB/EKSCluster/Vpc/PublicSubnet3"
-     }
-    ]
-   },
-   "Metadata": {
-    "aws:cdk:path": "EksPipelineStack/EKSClusterB/EKSCluster/Vpc/PublicSubnet3/NATGateway"
-   }
-  },
   "VpcPrivateSubnet1Subnet536B997A": {
    "Type": "AWS::EC2::Subnet",
    "Properties": {
     "VpcId": {
      "Ref": "Vpc8378EB38"
     },
-    "AvailabilityZone": "us-west-2a",
-    "CidrBlock": "10.0.96.0/19",
+    "AvailabilityZone": "us-west-1b",
+    "CidrBlock": "10.0.128.0/18",
     "MapPublicIpOnLaunch": false,
     "Tags": [
      {
@@ -499,8 +368,8 @@
     "VpcId": {
      "Ref": "Vpc8378EB38"
     },
-    "AvailabilityZone": "us-west-2b",
-    "CidrBlock": "10.0.128.0/19",
+    "AvailabilityZone": "us-west-1c",
+    "CidrBlock": "10.0.192.0/18",
     "MapPublicIpOnLaunch": false,
     "Tags": [
      {
@@ -573,88 +442,6 @@
    },
    "Metadata": {
     "aws:cdk:path": "EksPipelineStack/EKSClusterB/EKSCluster/Vpc/PrivateSubnet2/DefaultRoute"
-   }
-  },
-  "VpcPrivateSubnet3SubnetF258B56E": {
-   "Type": "AWS::EC2::Subnet",
-   "Properties": {
-    "VpcId": {
-     "Ref": "Vpc8378EB38"
-    },
-    "AvailabilityZone": "us-west-2c",
-    "CidrBlock": "10.0.160.0/19",
-    "MapPublicIpOnLaunch": false,
-    "Tags": [
-     {
-      "Key": "aws-cdk:subnet-name",
-      "Value": "Private"
-     },
-     {
-      "Key": "aws-cdk:subnet-type",
-      "Value": "Private"
-     },
-     {
-      "Key": "kubernetes.io/role/internal-elb",
-      "Value": "1"
-     },
-     {
-      "Key": "Name",
-      "Value": "EksPipelineStack/EKSClusterB/EKSCluster/Vpc/PrivateSubnet3"
-     }
-    ]
-   },
-   "Metadata": {
-    "aws:cdk:path": "EksPipelineStack/EKSClusterB/EKSCluster/Vpc/PrivateSubnet3/Subnet"
-   }
-  },
-  "VpcPrivateSubnet3RouteTableD98824C7": {
-   "Type": "AWS::EC2::RouteTable",
-   "Properties": {
-    "VpcId": {
-     "Ref": "Vpc8378EB38"
-    },
-    "Tags": [
-     {
-      "Key": "kubernetes.io/role/internal-elb",
-      "Value": "1"
-     },
-     {
-      "Key": "Name",
-      "Value": "EksPipelineStack/EKSClusterB/EKSCluster/Vpc/PrivateSubnet3"
-     }
-    ]
-   },
-   "Metadata": {
-    "aws:cdk:path": "EksPipelineStack/EKSClusterB/EKSCluster/Vpc/PrivateSubnet3/RouteTable"
-   }
-  },
-  "VpcPrivateSubnet3RouteTableAssociation16BDDC43": {
-   "Type": "AWS::EC2::SubnetRouteTableAssociation",
-   "Properties": {
-    "RouteTableId": {
-     "Ref": "VpcPrivateSubnet3RouteTableD98824C7"
-    },
-    "SubnetId": {
-     "Ref": "VpcPrivateSubnet3SubnetF258B56E"
-    }
-   },
-   "Metadata": {
-    "aws:cdk:path": "EksPipelineStack/EKSClusterB/EKSCluster/Vpc/PrivateSubnet3/RouteTableAssociation"
-   }
-  },
-  "VpcPrivateSubnet3DefaultRoute94B74F0D": {
-   "Type": "AWS::EC2::Route",
-   "Properties": {
-    "RouteTableId": {
-     "Ref": "VpcPrivateSubnet3RouteTableD98824C7"
-    },
-    "DestinationCidrBlock": "0.0.0.0/0",
-    "NatGatewayId": {
-     "Ref": "VpcPublicSubnet3NATGateway7640CD1D"
-    }
-   },
-   "Metadata": {
-    "aws:cdk:path": "EksPipelineStack/EKSClusterB/EKSCluster/Vpc/PrivateSubnet3/DefaultRoute"
    }
   },
   "VpcIGWD7BA715C": {
@@ -775,10 +562,6 @@
     "VpcPrivateSubnet2RouteTableA678073B",
     "VpcPrivateSubnet2RouteTableAssociationA89CAD56",
     "VpcPrivateSubnet2Subnet3788AAA1",
-    "VpcPrivateSubnet3DefaultRoute94B74F0D",
-    "VpcPrivateSubnet3RouteTableD98824C7",
-    "VpcPrivateSubnet3RouteTableAssociation16BDDC43",
-    "VpcPrivateSubnet3SubnetF258B56E",
     "VpcPublicSubnet1DefaultRoute3DA9E72A",
     "VpcPublicSubnet1EIPD7E02669",
     "VpcPublicSubnet1NATGateway4D7517AA",
@@ -791,12 +574,6 @@
     "VpcPublicSubnet2RouteTable94F7E489",
     "VpcPublicSubnet2RouteTableAssociationDD5762D8",
     "VpcPublicSubnet2Subnet691E08A3",
-    "VpcPublicSubnet3DefaultRoute4697774F",
-    "VpcPublicSubnet3EIP3A666A23",
-    "VpcPublicSubnet3NATGateway7640CD1D",
-    "VpcPublicSubnet3RouteTable93458DBB",
-    "VpcPublicSubnet3RouteTableAssociation1F1EDF02",
-    "VpcPublicSubnet3SubnetBE12F0B6",
     "Vpc8378EB38",
     "VpcVPCGWBF912B6E"
    ],
@@ -841,7 +618,7 @@
            {
             "Ref": "AWS::Partition"
            },
-           ":eks:us-west-2:312422985030:cluster/acme-green"
+           ":eks:us-west-1:312422985030:cluster/acme-green"
           ]
          ]
         },
@@ -853,7 +630,7 @@
            {
             "Ref": "AWS::Partition"
            },
-           ":eks:us-west-2:312422985030:cluster/acme-green/*"
+           ":eks:us-west-1:312422985030:cluster/acme-green/*"
           ]
          ]
         }
@@ -873,7 +650,7 @@
           {
            "Ref": "AWS::Partition"
           },
-          ":eks:us-west-2:312422985030:fargateprofile/acme-green/*"
+          ":eks:us-west-1:312422985030:fargateprofile/acme-green/*"
          ]
         ]
        }
@@ -924,10 +701,6 @@
     "VpcPrivateSubnet2RouteTableA678073B",
     "VpcPrivateSubnet2RouteTableAssociationA89CAD56",
     "VpcPrivateSubnet2Subnet3788AAA1",
-    "VpcPrivateSubnet3DefaultRoute94B74F0D",
-    "VpcPrivateSubnet3RouteTableD98824C7",
-    "VpcPrivateSubnet3RouteTableAssociation16BDDC43",
-    "VpcPrivateSubnet3SubnetF258B56E",
     "VpcPublicSubnet1DefaultRoute3DA9E72A",
     "VpcPublicSubnet1EIPD7E02669",
     "VpcPublicSubnet1NATGateway4D7517AA",
@@ -940,12 +713,6 @@
     "VpcPublicSubnet2RouteTable94F7E489",
     "VpcPublicSubnet2RouteTableAssociationDD5762D8",
     "VpcPublicSubnet2Subnet691E08A3",
-    "VpcPublicSubnet3DefaultRoute4697774F",
-    "VpcPublicSubnet3EIP3A666A23",
-    "VpcPublicSubnet3NATGateway7640CD1D",
-    "VpcPublicSubnet3RouteTable93458DBB",
-    "VpcPublicSubnet3RouteTableAssociation1F1EDF02",
-    "VpcPublicSubnet3SubnetBE12F0B6",
     "Vpc8378EB38",
     "VpcVPCGWBF912B6E"
    ],
@@ -978,9 +745,6 @@
        },
        {
         "Ref": "VpcPrivateSubnet2Subnet3788AAA1"
-       },
-       {
-        "Ref": "VpcPrivateSubnet3SubnetF258B56E"
        }
       ],
       "securityGroupIds": [
@@ -1015,10 +779,6 @@
     "VpcPrivateSubnet2RouteTableA678073B",
     "VpcPrivateSubnet2RouteTableAssociationA89CAD56",
     "VpcPrivateSubnet2Subnet3788AAA1",
-    "VpcPrivateSubnet3DefaultRoute94B74F0D",
-    "VpcPrivateSubnet3RouteTableD98824C7",
-    "VpcPrivateSubnet3RouteTableAssociation16BDDC43",
-    "VpcPrivateSubnet3SubnetF258B56E",
     "VpcPublicSubnet1DefaultRoute3DA9E72A",
     "VpcPublicSubnet1EIPD7E02669",
     "VpcPublicSubnet1NATGateway4D7517AA",
@@ -1031,12 +791,6 @@
     "VpcPublicSubnet2RouteTable94F7E489",
     "VpcPublicSubnet2RouteTableAssociationDD5762D8",
     "VpcPublicSubnet2Subnet691E08A3",
-    "VpcPublicSubnet3DefaultRoute4697774F",
-    "VpcPublicSubnet3EIP3A666A23",
-    "VpcPublicSubnet3NATGateway7640CD1D",
-    "VpcPublicSubnet3RouteTable93458DBB",
-    "VpcPublicSubnet3RouteTableAssociation1F1EDF02",
-    "VpcPublicSubnet3SubnetBE12F0B6",
     "Vpc8378EB38",
     "VpcVPCGWBF912B6E"
    ],
@@ -1169,9 +923,6 @@
      },
      {
       "Ref": "VpcPrivateSubnet2Subnet3788AAA1"
-     },
-     {
-      "Ref": "VpcPrivateSubnet3SubnetF258B56E"
      }
     ],
     "AmiType": "AL2_x86_64",
@@ -2384,11 +2135,11 @@
      "Fn::Join": [
       "",
       [
-       "https://s3.us-west-2.",
+       "https://s3.us-west-1.",
        {
         "Ref": "AWS::URLSuffix"
        },
-       "/cdk-hnb659fds-assets-312422985030-us-west-2/df1f919b3e6a975fcda251cac724bdb9e5eee1a8aa4b7311ecd1e3bec3978579.json"
+       "/cdk-hnb659fds-assets-312422985030-us-west-1/dd3598a40da8bc9aa3e0e4b3ae7ac06c81665e628691752fc1d831c39b133c5d.json"
       ]
      ]
     },
@@ -2416,11 +2167,11 @@
      "Fn::Join": [
       "",
       [
-       "https://s3.us-west-2.",
+       "https://s3.us-west-1.",
        {
         "Ref": "AWS::URLSuffix"
        },
-       "/cdk-hnb659fds-assets-312422985030-us-west-2/bfe6f223eff481660926cf65757991c67b44daac190fb0577648dd16527899a6.json"
+       "/cdk-hnb659fds-assets-312422985030-us-west-1/b4d2c81b45ac7047215d774773d9ed6dcf178c073b4a19c393740a006458ba15.json"
       ]
      ]
     },
@@ -2442,9 +2193,6 @@
      },
      "referencetoEksPipelineStackEKSClusterBEKSClusterVpcPrivateSubnet2SubnetF8D4D290Ref": {
       "Ref": "VpcPrivateSubnet2Subnet3788AAA1"
-     },
-     "referencetoEksPipelineStackEKSClusterBEKSClusterVpcPrivateSubnet3Subnet8420D34ARef": {
-      "Ref": "VpcPrivateSubnet3SubnetF258B56E"
      },
      "referencetoEksPipelineStackEKSClusterBEKSClusteracmegreen2F526E4AClusterSecurityGroupId": {
       "Fn::GetAtt": [
@@ -2529,7 +2277,7 @@
    "Type": "AWS::Lambda::Function",
    "Properties": {
     "Code": {
-     "S3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-2",
+     "S3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-1",
      "S3Key": "4bb3c91f0a389640166792537a0feb5557715eaf9537400e4c0f81cc02fea8fa.zip"
     },
     "Timeout": 900,
@@ -3020,7 +2768,7 @@
    "Type": "AWS::Lambda::Function",
    "Properties": {
     "Code": {
-     "S3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-2",
+     "S3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-1",
      "S3Key": "c2b7ecf3138b4c3d09c3a41dace2f5869f3a9c22f9fa632a14bd0c18a37284ee.zip"
     },
     "Timeout": 900,
@@ -3063,7 +2811,7 @@
       {
        "Ref": "acmegreen4403D3CF"
       },
-      " --region us-west-2 --role-arn ",
+      " --region us-west-1 --role-arn ",
       {
        "Fn::GetAtt": [
         "acmegreenMastersRole9F4E1EED",
@@ -3083,7 +2831,7 @@
       {
        "Ref": "acmegreen4403D3CF"
       },
-      " --region us-west-2 --role-arn ",
+      " --region us-west-1 --role-arn ",
       {
        "Fn::GetAtt": [
         "acmegreenMastersRole9F4E1EED",

@@ -95,7 +95,7 @@
    "Type": "AWS::Lambda::Function",
    "Properties": {
     "Code": {
-     "S3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-2",
+     "S3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-1",
      "S3Key": "5a0165b80474734eff290897da1c8d571862f020eeaac2561c839386159c7f03.zip"
     },
     "Role": {
@@ -129,9 +129,6 @@
       },
       {
        "Ref": "referencetoEksPipelineStackEKSClusterBEKSClusterVpcPrivateSubnet2SubnetF8D4D290Ref"
-      },
-      {
-       "Ref": "referencetoEksPipelineStackEKSClusterBEKSClusterVpcPrivateSubnet3Subnet8420D34ARef"
       }
      ]
     }
@@ -151,7 +148,7 @@
    "Type": "AWS::Lambda::LayerVersion",
    "Properties": {
     "Content": {
-     "S3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-2",
+     "S3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-1",
      "S3Key": "c5a03f09adbaa6b0a994d730878f7c614af123fff7b9439e7ca357dc66f72e92.zip"
     },
     "Description": "/opt/awscli/aws"
@@ -167,7 +164,7 @@
    "Type": "AWS::Lambda::LayerVersion",
    "Properties": {
     "Content": {
-     "S3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-2",
+     "S3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-1",
      "S3Key": "c6964dbf0c556ec82ce09622e99ad6f6d4e488cdaac0ef9e8492e078ec61ffed.zip"
     },
     "Description": "/opt/kubectl/kubectl and /opt/helm/helm"
@@ -274,7 +271,7 @@
    "Type": "AWS::Lambda::Function",
    "Properties": {
     "Code": {
-     "S3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-2",
+     "S3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-1",
      "S3Key": "3b263c2ad043fd069ef446753788c36e595c82b51a70478e58258c8ef7471671.zip"
     },
     "Role": {
@@ -309,9 +306,6 @@
       },
       {
        "Ref": "referencetoEksPipelineStackEKSClusterBEKSClusterVpcPrivateSubnet2SubnetF8D4D290Ref"
-      },
-      {
-       "Ref": "referencetoEksPipelineStackEKSClusterBEKSClusterVpcPrivateSubnet3Subnet8420D34ARef"
       }
      ]
     }
@@ -358,9 +352,6 @@
    "Type": "String"
   },
   "referencetoEksPipelineStackEKSClusterBEKSClusterVpcPrivateSubnet2SubnetF8D4D290Ref": {
-   "Type": "String"
-  },
-  "referencetoEksPipelineStackEKSClusterBEKSClusterVpcPrivateSubnet3Subnet8420D34ARef": {
    "Type": "String"
   },
   "referencetoEksPipelineStackEKSClusterBEKSClusteracmegreen2F526E4AClusterSecurityGroupId": {

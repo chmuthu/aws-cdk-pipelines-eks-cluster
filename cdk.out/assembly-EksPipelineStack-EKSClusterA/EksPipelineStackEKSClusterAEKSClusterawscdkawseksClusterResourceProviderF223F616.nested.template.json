@@ -4,7 +4,7 @@
    "Type": "AWS::Lambda::LayerVersion",
    "Properties": {
     "Content": {
-     "S3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-2",
+     "S3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-1",
      "S3Key": "4288ebb3652acdf2d828b7db7ca44a7162a401ace50ebb4026e84b18a02a06ee.zip"
     },
     "Description": "/opt/nodejs/node_modules/proxy-agent"
@@ -80,7 +80,7 @@
    "Type": "AWS::Lambda::Function",
    "Properties": {
     "Code": {
-     "S3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-2",
+     "S3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-1",
      "S3Key": "98908a88aa1d19a5175824f9f289b2d4736b7e17837f4e1ca871251a7505c02d.zip"
     },
     "Role": {
@@ -179,7 +179,7 @@
    "Type": "AWS::Lambda::Function",
    "Properties": {
     "Code": {
-     "S3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-2",
+     "S3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-1",
      "S3Key": "98908a88aa1d19a5175824f9f289b2d4736b7e17837f4e1ca871251a7505c02d.zip"
     },
     "Role": {
@@ -330,7 +330,7 @@
    "Type": "AWS::Lambda::Function",
    "Properties": {
     "Code": {
-     "S3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-2",
+     "S3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-1",
      "S3Key": "3b263c2ad043fd069ef446753788c36e595c82b51a70478e58258c8ef7471671.zip"
     },
     "Role": {
@@ -483,7 +483,7 @@
    "Type": "AWS::Lambda::Function",
    "Properties": {
     "Code": {
-     "S3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-2",
+     "S3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-1",
      "S3Key": "3b263c2ad043fd069ef446753788c36e595c82b51a70478e58258c8ef7471671.zip"
     },
     "Role": {
@@ -633,7 +633,7 @@
    "Type": "AWS::Lambda::Function",
    "Properties": {
     "Code": {
-     "S3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-2",
+     "S3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-1",
      "S3Key": "3b263c2ad043fd069ef446753788c36e595c82b51a70478e58258c8ef7471671.zip"
     },
     "Role": {
@@ -683,7 +683,7 @@
        "Action": "sts:AssumeRole",
        "Effect": "Allow",
        "Principal": {
-        "Service": "states.us-west-2.amazonaws.com"
+        "Service": "states.us-west-1.amazonaws.com"
        }
       }
      ],

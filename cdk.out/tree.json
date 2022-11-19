@@ -121,7 +121,7 @@
                                               {
                                                 "Ref": "AWS::Partition"
                                               },
-                                              ":iam::312422985030:role/cdk-hnb659fds-deploy-role-312422985030-us-west-2"
+                                              ":iam::312422985030:role/cdk-hnb659fds-deploy-role-312422985030-us-west-1"
                                             ]
                                           ]
                                         }
@@ -270,7 +270,7 @@
                                             {
                                               "Ref": "AWS::Partition"
                                             },
-                                            ":iam::312422985030:role/cdk-hnb659fds-deploy-role-312422985030-us-west-2"
+                                            ":iam::312422985030:role/cdk-hnb659fds-deploy-role-312422985030-us-west-1"
                                           ]
                                         ]
                                       }
@@ -766,7 +766,7 @@
                                         {
                                           "Ref": "AWS::Partition"
                                         },
-                                        ":iam::312422985030:role/cdk-hnb659fds-cfn-exec-role-312422985030-us-west-2"
+                                        ":iam::312422985030:role/cdk-hnb659fds-cfn-exec-role-312422985030-us-west-1"
                                       ]
                                     ]
                                   },
@@ -784,7 +784,7 @@
                                       {
                                         "Ref": "AWS::Partition"
                                       },
-                                      ":iam::312422985030:role/cdk-hnb659fds-deploy-role-312422985030-us-west-2"
+                                      ":iam::312422985030:role/cdk-hnb659fds-deploy-role-312422985030-us-west-1"
                                     ]
                                   ]
                                 }
@@ -813,7 +813,7 @@
                                         {
                                           "Ref": "AWS::Partition"
                                         },
-                                        ":iam::312422985030:role/cdk-hnb659fds-cfn-exec-role-312422985030-us-west-2"
+                                        ":iam::312422985030:role/cdk-hnb659fds-cfn-exec-role-312422985030-us-west-1"
                                       ]
                                     ]
                                   },
@@ -831,7 +831,7 @@
                                       {
                                         "Ref": "AWS::Partition"
                                       },
-                                      ":iam::312422985030:role/cdk-hnb659fds-deploy-role-312422985030-us-west-2"
+                                      ":iam::312422985030:role/cdk-hnb659fds-deploy-role-312422985030-us-west-1"
                                     ]
                                   ]
                                 }
@@ -858,7 +858,7 @@
                                       {
                                         "Ref": "AWS::Partition"
                                       },
-                                      ":iam::312422985030:role/cdk-hnb659fds-deploy-role-312422985030-us-west-2"
+                                      ":iam::312422985030:role/cdk-hnb659fds-deploy-role-312422985030-us-west-1"
                                     ]
                                   ]
                                 }
@@ -885,7 +885,7 @@
                                       {
                                         "Ref": "AWS::Partition"
                                       },
-                                      ":iam::312422985030:role/cdk-hnb659fds-deploy-role-312422985030-us-west-2"
+                                      ":iam::312422985030:role/cdk-hnb659fds-deploy-role-312422985030-us-west-1"
                                     ]
                                   ]
                                 }
@@ -987,7 +987,7 @@
                                         {
                                           "Ref": "AWS::Partition"
                                         },
-                                        ":iam::312422985030:role/cdk-hnb659fds-cfn-exec-role-312422985030-us-west-2"
+                                        ":iam::312422985030:role/cdk-hnb659fds-cfn-exec-role-312422985030-us-west-1"
                                       ]
                                     ]
                                   },
@@ -1005,7 +1005,7 @@
                                       {
                                         "Ref": "AWS::Partition"
                                       },
-                                      ":iam::312422985030:role/cdk-hnb659fds-deploy-role-312422985030-us-west-2"
+                                      ":iam::312422985030:role/cdk-hnb659fds-deploy-role-312422985030-us-west-1"
                                     ]
                                   ]
                                 }
@@ -1032,7 +1032,7 @@
                                       {
                                         "Ref": "AWS::Partition"
                                       },
-                                      ":iam::312422985030:role/cdk-hnb659fds-deploy-role-312422985030-us-west-2"
+                                      ":iam::312422985030:role/cdk-hnb659fds-deploy-role-312422985030-us-west-1"
                                     ]
                                   ]
                                 }
@@ -1173,7 +1173,7 @@
                                                           {
                                                             "Ref": "AWS::Partition"
                                                           },
-                                                          ":logs:us-west-2:312422985030:log-group:/aws/codebuild/",
+                                                          ":logs:us-west-1:312422985030:log-group:/aws/codebuild/",
                                                           {
                                                             "Ref": "PipelineBuildSynthCdkBuildProject6BEFA8E6"
                                                           }
@@ -1188,7 +1188,7 @@
                                                           {
                                                             "Ref": "AWS::Partition"
                                                           },
-                                                          ":logs:us-west-2:312422985030:log-group:/aws/codebuild/",
+                                                          ":logs:us-west-1:312422985030:log-group:/aws/codebuild/",
                                                           {
                                                             "Ref": "PipelineBuildSynthCdkBuildProject6BEFA8E6"
                                                           },
@@ -1215,7 +1215,7 @@
                                                         {
                                                           "Ref": "AWS::Partition"
                                                         },
-                                                        ":codebuild:us-west-2:312422985030:report-group/",
+                                                        ":codebuild:us-west-1:312422985030:report-group/",
                                                         {
                                                           "Ref": "PipelineBuildSynthCdkBuildProject6BEFA8E6"
                                                         },
@@ -1570,7 +1570,7 @@
                                                           {
                                                             "Ref": "AWS::Partition"
                                                           },
-                                                          ":logs:us-west-2:312422985030:log-group:/aws/codebuild/",
+                                                          ":logs:us-west-1:312422985030:log-group:/aws/codebuild/",
                                                           {
                                                             "Ref": "PipelineDeployEKSClustersEKSClusterAValidateAppValidateAppC8FEA68A"
                                                           }
@@ -1585,7 +1585,7 @@
                                                           {
                                                             "Ref": "AWS::Partition"
                                                           },
-                                                          ":logs:us-west-2:312422985030:log-group:/aws/codebuild/",
+                                                          ":logs:us-west-1:312422985030:log-group:/aws/codebuild/",
                                                           {
                                                             "Ref": "PipelineDeployEKSClustersEKSClusterAValidateAppValidateAppC8FEA68A"
                                                           },
@@ -1612,7 +1612,7 @@
                                                         {
                                                           "Ref": "AWS::Partition"
                                                         },
-                                                        ":codebuild:us-west-2:312422985030:report-group/",
+                                                        ":codebuild:us-west-1:312422985030:report-group/",
                                                         {
                                                           "Ref": "PipelineDeployEKSClustersEKSClusterAValidateAppValidateAppC8FEA68A"
                                                         },
@@ -1805,7 +1805,7 @@
                                                           {
                                                             "Ref": "AWS::Partition"
                                                           },
-                                                          ":logs:us-west-2:312422985030:log-group:/aws/codebuild/",
+                                                          ":logs:us-west-1:312422985030:log-group:/aws/codebuild/",
                                                           {
                                                             "Ref": "PipelineDeployEKSClustersEKSClusterBValidateAppValidateApp1E0A0C71"
                                                           }
@@ -1820,7 +1820,7 @@
                                                           {
                                                             "Ref": "AWS::Partition"
                                                           },
-                                                          ":logs:us-west-2:312422985030:log-group:/aws/codebuild/",
+                                                          ":logs:us-west-1:312422985030:log-group:/aws/codebuild/",
                                                           {
                                                             "Ref": "PipelineDeployEKSClustersEKSClusterBValidateAppValidateApp1E0A0C71"
                                                           },
@@ -1847,7 +1847,7 @@
                                                         {
                                                           "Ref": "AWS::Partition"
                                                         },
-                                                        ":codebuild:us-west-2:312422985030:report-group/",
+                                                        ":codebuild:us-west-1:312422985030:report-group/",
                                                         {
                                                           "Ref": "PipelineDeployEKSClustersEKSClusterBValidateAppValidateApp1E0A0C71"
                                                         },
@@ -1981,21 +1981,21 @@
                       "version": "1.181.0"
                     }
                   },
-                  "MutableRolearn:${AWS::Partition}:iam::312422985030:role--cdk-hnb659fds-deploy-role-312422985030-us-west-2": {
-                    "id": "MutableRolearn:${AWS::Partition}:iam::312422985030:role--cdk-hnb659fds-deploy-role-312422985030-us-west-2",
-                    "path": "EksPipelineStack/Pipeline/Pipeline/MutableRolearn:${AWS::Partition}:iam::312422985030:role--cdk-hnb659fds-deploy-role-312422985030-us-west-2",
+                  "MutableRolearn:${AWS::Partition}:iam::312422985030:role--cdk-hnb659fds-deploy-role-312422985030-us-west-1": {
+                    "id": "MutableRolearn:${AWS::Partition}:iam::312422985030:role--cdk-hnb659fds-deploy-role-312422985030-us-west-1",
+                    "path": "EksPipelineStack/Pipeline/Pipeline/MutableRolearn:${AWS::Partition}:iam::312422985030:role--cdk-hnb659fds-deploy-role-312422985030-us-west-1",
                     "constructInfo": {
                       "fqn": "@aws-cdk/core.Resource",
                       "version": "1.181.0"
                     }
                   },
-                  "arn:${AWS::Partition}:iam::312422985030:role--cdk-hnb659fds-deploy-role-312422985030-us-west-2": {
-                    "id": "arn:${AWS::Partition}:iam::312422985030:role--cdk-hnb659fds-deploy-role-312422985030-us-west-2",
-                    "path": "EksPipelineStack/Pipeline/Pipeline/arn:${AWS::Partition}:iam::312422985030:role--cdk-hnb659fds-deploy-role-312422985030-us-west-2",
+                  "arn:${AWS::Partition}:iam::312422985030:role--cdk-hnb659fds-deploy-role-312422985030-us-west-1": {
+                    "id": "arn:${AWS::Partition}:iam::312422985030:role--cdk-hnb659fds-deploy-role-312422985030-us-west-1",
+                    "path": "EksPipelineStack/Pipeline/Pipeline/arn:${AWS::Partition}:iam::312422985030:role--cdk-hnb659fds-deploy-role-312422985030-us-west-1",
                     "children": {
                       "8389e75f-0810-4838-bf64-d6f85a95cf83": {
                         "id": "8389e75f-0810-4838-bf64-d6f85a95cf83",
-                        "path": "EksPipelineStack/Pipeline/Pipeline/arn:${AWS::Partition}:iam::312422985030:role--cdk-hnb659fds-deploy-role-312422985030-us-west-2/8389e75f-0810-4838-bf64-d6f85a95cf83",
+                        "path": "EksPipelineStack/Pipeline/Pipeline/arn:${AWS::Partition}:iam::312422985030:role--cdk-hnb659fds-deploy-role-312422985030-us-west-1/8389e75f-0810-4838-bf64-d6f85a95cf83",
                         "constructInfo": {
                           "fqn": "@aws-cdk/core.Construct",
                           "version": "1.181.0"
@@ -2007,17 +2007,17 @@
                       "version": "1.181.0"
                     }
                   },
-                  "MutableRolearn:${AWS::Partition}:iam::312422985030:role--cdk-hnb659fds-cfn-exec-role-312422985030-us-west-2": {
-                    "id": "MutableRolearn:${AWS::Partition}:iam::312422985030:role--cdk-hnb659fds-cfn-exec-role-312422985030-us-west-2",
-                    "path": "EksPipelineStack/Pipeline/Pipeline/MutableRolearn:${AWS::Partition}:iam::312422985030:role--cdk-hnb659fds-cfn-exec-role-312422985030-us-west-2",
+                  "MutableRolearn:${AWS::Partition}:iam::312422985030:role--cdk-hnb659fds-cfn-exec-role-312422985030-us-west-1": {
+                    "id": "MutableRolearn:${AWS::Partition}:iam::312422985030:role--cdk-hnb659fds-cfn-exec-role-312422985030-us-west-1",
+                    "path": "EksPipelineStack/Pipeline/Pipeline/MutableRolearn:${AWS::Partition}:iam::312422985030:role--cdk-hnb659fds-cfn-exec-role-312422985030-us-west-1",
                     "constructInfo": {
                       "fqn": "@aws-cdk/core.Resource",
                       "version": "1.181.0"
                     }
                   },
-                  "arn:${AWS::Partition}:iam::312422985030:role--cdk-hnb659fds-cfn-exec-role-312422985030-us-west-2": {
-                    "id": "arn:${AWS::Partition}:iam::312422985030:role--cdk-hnb659fds-cfn-exec-role-312422985030-us-west-2",
-                    "path": "EksPipelineStack/Pipeline/Pipeline/arn:${AWS::Partition}:iam::312422985030:role--cdk-hnb659fds-cfn-exec-role-312422985030-us-west-2",
+                  "arn:${AWS::Partition}:iam::312422985030:role--cdk-hnb659fds-cfn-exec-role-312422985030-us-west-1": {
+                    "id": "arn:${AWS::Partition}:iam::312422985030:role--cdk-hnb659fds-cfn-exec-role-312422985030-us-west-1",
+                    "path": "EksPipelineStack/Pipeline/Pipeline/arn:${AWS::Partition}:iam::312422985030:role--cdk-hnb659fds-cfn-exec-role-312422985030-us-west-1",
                     "constructInfo": {
                       "fqn": "@aws-cdk/core.Resource",
                       "version": "1.181.0"
@@ -2485,7 +2485,7 @@
                                                   {
                                                     "Ref": "AWS::Partition"
                                                   },
-                                                  ":logs:us-west-2:312422985030:log-group:/aws/codebuild/",
+                                                  ":logs:us-west-1:312422985030:log-group:/aws/codebuild/",
                                                   {
                                                     "Ref": "PipelineUpdatePipelineSelfMutationDAA41400"
                                                   }
@@ -2500,7 +2500,7 @@
                                                   {
                                                     "Ref": "AWS::Partition"
                                                   },
-                                                  ":logs:us-west-2:312422985030:log-group:/aws/codebuild/",
+                                                  ":logs:us-west-1:312422985030:log-group:/aws/codebuild/",
                                                   {
                                                     "Ref": "PipelineUpdatePipelineSelfMutationDAA41400"
                                                   },
@@ -2527,7 +2527,7 @@
                                                 {
                                                   "Ref": "AWS::Partition"
                                                 },
-                                                ":codebuild:us-west-2:312422985030:report-group/",
+                                                ":codebuild:us-west-1:312422985030:report-group/",
                                                 {
                                                   "Ref": "PipelineUpdatePipelineSelfMutationDAA41400"
                                                 },
@@ -2747,7 +2747,7 @@
                                             {
                                               "Ref": "AWS::Partition"
                                             },
-                                            ":logs:us-west-2:312422985030:log-group:/aws/codebuild/*"
+                                            ":logs:us-west-1:312422985030:log-group:/aws/codebuild/*"
                                           ]
                                         ]
                                       }
@@ -2769,7 +2769,7 @@
                                             {
                                               "Ref": "AWS::Partition"
                                             },
-                                            ":codebuild:us-west-2:312422985030:report-group/*"
+                                            ":codebuild:us-west-1:312422985030:report-group/*"
                                           ]
                                         ]
                                       }
@@ -2788,7 +2788,7 @@
                                       "Effect": "Allow",
                                       "Resource": [
                                         {
-                                          "Fn::Sub": "arn:${AWS::Partition}:iam::312422985030:role/cdk-hnb659fds-file-publishing-role-312422985030-us-west-2"
+                                          "Fn::Sub": "arn:${AWS::Partition}:iam::312422985030:role/cdk-hnb659fds-file-publishing-role-312422985030-us-west-1"
                                         }
                                       ]
                                     },
@@ -2878,7 +2878,7 @@
                             },
                             "source": {
                               "type": "CODEPIPELINE",
-                              "buildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterA/EksPipelineStackEKSClusterAEKSClusterC0C47102.assets.json\\\" --verbose publish \\\"4288ebb3652acdf2d828b7db7ca44a7162a401ace50ebb4026e84b18a02a06ee:312422985030-us-west-2\\\"\"\n      ]\n    }\n  }\n}"
+                              "buildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterA/EksPipelineStackEKSClusterAEKSClusterC0C47102.assets.json\\\" --verbose publish \\\"4288ebb3652acdf2d828b7db7ca44a7162a401ace50ebb4026e84b18a02a06ee:312422985030-us-west-1\\\"\"\n      ]\n    }\n  }\n}"
                             },
                             "cache": {
                               "type": "NO_CACHE"
@@ -2926,7 +2926,7 @@
                             },
                             "source": {
                               "type": "CODEPIPELINE",
-                              "buildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterA/EksPipelineStackEKSClusterAEKSClusterC0C47102.assets.json\\\" --verbose publish \\\"bb5bab4c5f0447395c4a03a000ed9f2f64455ef4683329e3b8873ddd8a383029:312422985030-us-west-2\\\"\"\n      ]\n    }\n  }\n}"
+                              "buildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterA/EksPipelineStackEKSClusterAEKSClusterC0C47102.assets.json\\\" --verbose publish \\\"b85605524c56e9f0244e32f3fa1ccb9a9695e697a1acfe7447201488462b3656:312422985030-us-west-1\\\"\"\n      ]\n    }\n  }\n}"
                             },
                             "cache": {
                               "type": "NO_CACHE"
@@ -2974,7 +2974,7 @@
                             },
                             "source": {
                               "type": "CODEPIPELINE",
-                              "buildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterB/EksPipelineStackEKSClusterBEKSCluster1709FEDC.assets.json\\\" --verbose publish \\\"df1f919b3e6a975fcda251cac724bdb9e5eee1a8aa4b7311ecd1e3bec3978579:312422985030-us-west-2\\\"\"\n      ]\n    }\n  }\n}"
+                              "buildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterB/EksPipelineStackEKSClusterBEKSCluster1709FEDC.assets.json\\\" --verbose publish \\\"dd3598a40da8bc9aa3e0e4b3ae7ac06c81665e628691752fc1d831c39b133c5d:312422985030-us-west-1\\\"\"\n      ]\n    }\n  }\n}"
                             },
                             "cache": {
                               "type": "NO_CACHE"
@@ -3022,7 +3022,7 @@
                             },
                             "source": {
                               "type": "CODEPIPELINE",
-                              "buildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterB/EksPipelineStackEKSClusterBEKSCluster1709FEDC.assets.json\\\" --verbose publish \\\"bfe6f223eff481660926cf65757991c67b44daac190fb0577648dd16527899a6:312422985030-us-west-2\\\"\"\n      ]\n    }\n  }\n}"
+                              "buildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterB/EksPipelineStackEKSClusterBEKSCluster1709FEDC.assets.json\\\" --verbose publish \\\"b4d2c81b45ac7047215d774773d9ed6dcf178c073b4a19c393740a006458ba15:312422985030-us-west-1\\\"\"\n      ]\n    }\n  }\n}"
                             },
                             "cache": {
                               "type": "NO_CACHE"
@@ -3070,7 +3070,7 @@
                             },
                             "source": {
                               "type": "CODEPIPELINE",
-                              "buildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterA/EksPipelineStackEKSClusterAEKSClusterC0C47102.assets.json\\\" --verbose publish \\\"98908a88aa1d19a5175824f9f289b2d4736b7e17837f4e1ca871251a7505c02d:312422985030-us-west-2\\\"\"\n      ]\n    }\n  }\n}"
+                              "buildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterA/EksPipelineStackEKSClusterAEKSClusterC0C47102.assets.json\\\" --verbose publish \\\"98908a88aa1d19a5175824f9f289b2d4736b7e17837f4e1ca871251a7505c02d:312422985030-us-west-1\\\"\"\n      ]\n    }\n  }\n}"
                             },
                             "cache": {
                               "type": "NO_CACHE"
@@ -3118,7 +3118,7 @@
                             },
                             "source": {
                               "type": "CODEPIPELINE",
-                              "buildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterA/EksPipelineStackEKSClusterAEKSClusterC0C47102.assets.json\\\" --verbose publish \\\"3b263c2ad043fd069ef446753788c36e595c82b51a70478e58258c8ef7471671:312422985030-us-west-2\\\"\"\n      ]\n    }\n  }\n}"
+                              "buildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterA/EksPipelineStackEKSClusterAEKSClusterC0C47102.assets.json\\\" --verbose publish \\\"3b263c2ad043fd069ef446753788c36e595c82b51a70478e58258c8ef7471671:312422985030-us-west-1\\\"\"\n      ]\n    }\n  }\n}"
                             },
                             "cache": {
                               "type": "NO_CACHE"
@@ -3166,7 +3166,7 @@
                             },
                             "source": {
                               "type": "CODEPIPELINE",
-                              "buildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterA/EksPipelineStackEKSClusterAEKSClusterC0C47102.assets.json\\\" --verbose publish \\\"5a0165b80474734eff290897da1c8d571862f020eeaac2561c839386159c7f03:312422985030-us-west-2\\\"\"\n      ]\n    }\n  }\n}"
+                              "buildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterA/EksPipelineStackEKSClusterAEKSClusterC0C47102.assets.json\\\" --verbose publish \\\"5a0165b80474734eff290897da1c8d571862f020eeaac2561c839386159c7f03:312422985030-us-west-1\\\"\"\n      ]\n    }\n  }\n}"
                             },
                             "cache": {
                               "type": "NO_CACHE"
@@ -3214,7 +3214,7 @@
                             },
                             "source": {
                               "type": "CODEPIPELINE",
-                              "buildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterA/EksPipelineStackEKSClusterAEKSClusterC0C47102.assets.json\\\" --verbose publish \\\"c5a03f09adbaa6b0a994d730878f7c614af123fff7b9439e7ca357dc66f72e92:312422985030-us-west-2\\\"\"\n      ]\n    }\n  }\n}"
+                              "buildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterA/EksPipelineStackEKSClusterAEKSClusterC0C47102.assets.json\\\" --verbose publish \\\"c5a03f09adbaa6b0a994d730878f7c614af123fff7b9439e7ca357dc66f72e92:312422985030-us-west-1\\\"\"\n      ]\n    }\n  }\n}"
                             },
                             "cache": {
                               "type": "NO_CACHE"
@@ -3262,7 +3262,7 @@
                             },
                             "source": {
                               "type": "CODEPIPELINE",
-                              "buildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterA/EksPipelineStackEKSClusterAEKSClusterC0C47102.assets.json\\\" --verbose publish \\\"c6964dbf0c556ec82ce09622e99ad6f6d4e488cdaac0ef9e8492e078ec61ffed:312422985030-us-west-2\\\"\"\n      ]\n    }\n  }\n}"
+                              "buildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterA/EksPipelineStackEKSClusterAEKSClusterC0C47102.assets.json\\\" --verbose publish \\\"c6964dbf0c556ec82ce09622e99ad6f6d4e488cdaac0ef9e8492e078ec61ffed:312422985030-us-west-1\\\"\"\n      ]\n    }\n  }\n}"
                             },
                             "cache": {
                               "type": "NO_CACHE"
@@ -3310,7 +3310,7 @@
                             },
                             "source": {
                               "type": "CODEPIPELINE",
-                              "buildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterA/EksPipelineStackEKSClusterAEKSClusterC0C47102.assets.json\\\" --verbose publish \\\"4bb3c91f0a389640166792537a0feb5557715eaf9537400e4c0f81cc02fea8fa:312422985030-us-west-2\\\"\"\n      ]\n    }\n  }\n}"
+                              "buildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterA/EksPipelineStackEKSClusterAEKSClusterC0C47102.assets.json\\\" --verbose publish \\\"4bb3c91f0a389640166792537a0feb5557715eaf9537400e4c0f81cc02fea8fa:312422985030-us-west-1\\\"\"\n      ]\n    }\n  }\n}"
                             },
                             "cache": {
                               "type": "NO_CACHE"
@@ -3358,7 +3358,7 @@
                             },
                             "source": {
                               "type": "CODEPIPELINE",
-                              "buildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterA/EksPipelineStackEKSClusterAEKSClusterC0C47102.assets.json\\\" --verbose publish \\\"c2b7ecf3138b4c3d09c3a41dace2f5869f3a9c22f9fa632a14bd0c18a37284ee:312422985030-us-west-2\\\"\"\n      ]\n    }\n  }\n}"
+                              "buildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterA/EksPipelineStackEKSClusterAEKSClusterC0C47102.assets.json\\\" --verbose publish \\\"c2b7ecf3138b4c3d09c3a41dace2f5869f3a9c22f9fa632a14bd0c18a37284ee:312422985030-us-west-1\\\"\"\n      ]\n    }\n  }\n}"
                             },
                             "cache": {
                               "type": "NO_CACHE"
@@ -3406,7 +3406,7 @@
                             },
                             "source": {
                               "type": "CODEPIPELINE",
-                              "buildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterA/EksPipelineStackEKSClusterAEKSClusterC0C47102.assets.json\\\" --verbose publish \\\"0766f96e70722e30d46d962de8c8f6197d0eb225aee0ea0e20c3c75b9e5ec3c2:312422985030-us-west-2\\\"\"\n      ]\n    }\n  }\n}"
+                              "buildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterA/EksPipelineStackEKSClusterAEKSClusterC0C47102.assets.json\\\" --verbose publish \\\"5d50e6594c867ad03d91f21ce79edf50baf1ed9305fec6c1e24bf9eeaf0867ea:312422985030-us-west-1\\\"\"\n      ]\n    }\n  }\n}"
                             },
                             "cache": {
                               "type": "NO_CACHE"
@@ -3486,8 +3486,8 @@
                                 "vpcId": {
                                   "Ref": "Vpc8378EB38"
                                 },
-                                "availabilityZone": "us-west-2a",
-                                "cidrBlock": "10.0.0.0/19",
+                                "availabilityZone": "us-west-1b",
+                                "cidrBlock": "10.0.0.0/18",
                                 "mapPublicIpOnLaunch": true,
                                 "tags": [
                                   {
@@ -3662,8 +3662,8 @@
                                 "vpcId": {
                                   "Ref": "Vpc8378EB38"
                                 },
-                                "availabilityZone": "us-west-2b",
-                                "cidrBlock": "10.0.32.0/19",
+                                "availabilityZone": "us-west-1c",
+                                "cidrBlock": "10.0.64.0/18",
                                 "mapPublicIpOnLaunch": true,
                                 "tags": [
                                   {
@@ -3825,182 +3825,6 @@
                           "version": "1.181.0"
                         }
                       },
-                      "PublicSubnet3": {
-                        "id": "PublicSubnet3",
-                        "path": "EksPipelineStack/EKSClusterA/EKSCluster/Vpc/PublicSubnet3",
-                        "children": {
-                          "Subnet": {
-                            "id": "Subnet",
-                            "path": "EksPipelineStack/EKSClusterA/EKSCluster/Vpc/PublicSubnet3/Subnet",
-                            "attributes": {
-                              "aws:cdk:cloudformation:type": "AWS::EC2::Subnet",
-                              "aws:cdk:cloudformation:props": {
-                                "vpcId": {
-                                  "Ref": "Vpc8378EB38"
-                                },
-                                "availabilityZone": "us-west-2c",
-                                "cidrBlock": "10.0.64.0/19",
-                                "mapPublicIpOnLaunch": true,
-                                "tags": [
-                                  {
-                                    "key": "aws-cdk:subnet-name",
-                                    "value": "Public"
-                                  },
-                                  {
-                                    "key": "aws-cdk:subnet-type",
-                                    "value": "Public"
-                                  },
-                                  {
-                                    "key": "kubernetes.io/role/elb",
-                                    "value": "1"
-                                  },
-                                  {
-                                    "key": "Name",
-                                    "value": "EksPipelineStack/EKSClusterA/EKSCluster/Vpc/PublicSubnet3"
-                                  }
-                                ]
-                              }
-                            },
-                            "constructInfo": {
-                              "fqn": "@aws-cdk/aws-ec2.CfnSubnet",
-                              "version": "1.181.0"
-                            }
-                          },
-                          "Acl": {
-                            "id": "Acl",
-                            "path": "EksPipelineStack/EKSClusterA/EKSCluster/Vpc/PublicSubnet3/Acl",
-                            "constructInfo": {
-                              "fqn": "@aws-cdk/core.Resource",
-                              "version": "1.181.0"
-                            }
-                          },
-                          "RouteTable": {
-                            "id": "RouteTable",
-                            "path": "EksPipelineStack/EKSClusterA/EKSCluster/Vpc/PublicSubnet3/RouteTable",
-                            "attributes": {
-                              "aws:cdk:cloudformation:type": "AWS::EC2::RouteTable",
-                              "aws:cdk:cloudformation:props": {
-                                "vpcId": {
-                                  "Ref": "Vpc8378EB38"
-                                },
-                                "tags": [
-                                  {
-                                    "key": "kubernetes.io/role/elb",
-                                    "value": "1"
-                                  },
-                                  {
-                                    "key": "Name",
-                                    "value": "EksPipelineStack/EKSClusterA/EKSCluster/Vpc/PublicSubnet3"
-                                  }
-                                ]
-                              }
-                            },
-                            "constructInfo": {
-                              "fqn": "@aws-cdk/aws-ec2.CfnRouteTable",
-                              "version": "1.181.0"
-                            }
-                          },
-                          "RouteTableAssociation": {
-                            "id": "RouteTableAssociation",
-                            "path": "EksPipelineStack/EKSClusterA/EKSCluster/Vpc/PublicSubnet3/RouteTableAssociation",
-                            "attributes": {
-                              "aws:cdk:cloudformation:type": "AWS::EC2::SubnetRouteTableAssociation",
-                              "aws:cdk:cloudformation:props": {
-                                "routeTableId": {
-                                  "Ref": "VpcPublicSubnet3RouteTable93458DBB"
-                                },
-                                "subnetId": {
-                                  "Ref": "VpcPublicSubnet3SubnetBE12F0B6"
-                                }
-                              }
-                            },
-                            "constructInfo": {
-                              "fqn": "@aws-cdk/aws-ec2.CfnSubnetRouteTableAssociation",
-                              "version": "1.181.0"
-                            }
-                          },
-                          "DefaultRoute": {
-                            "id": "DefaultRoute",
-                            "path": "EksPipelineStack/EKSClusterA/EKSCluster/Vpc/PublicSubnet3/DefaultRoute",
-                            "attributes": {
-                              "aws:cdk:cloudformation:type": "AWS::EC2::Route",
-                              "aws:cdk:cloudformation:props": {
-                                "routeTableId": {
-                                  "Ref": "VpcPublicSubnet3RouteTable93458DBB"
-                                },
-                                "destinationCidrBlock": "0.0.0.0/0",
-                                "gatewayId": {
-                                  "Ref": "VpcIGWD7BA715C"
-                                }
-                              }
-                            },
-                            "constructInfo": {
-                              "fqn": "@aws-cdk/aws-ec2.CfnRoute",
-                              "version": "1.181.0"
-                            }
-                          },
-                          "EIP": {
-                            "id": "EIP",
-                            "path": "EksPipelineStack/EKSClusterA/EKSCluster/Vpc/PublicSubnet3/EIP",
-                            "attributes": {
-                              "aws:cdk:cloudformation:type": "AWS::EC2::EIP",
-                              "aws:cdk:cloudformation:props": {
-                                "domain": "vpc",
-                                "tags": [
-                                  {
-                                    "key": "kubernetes.io/role/elb",
-                                    "value": "1"
-                                  },
-                                  {
-                                    "key": "Name",
-                                    "value": "EksPipelineStack/EKSClusterA/EKSCluster/Vpc/PublicSubnet3"
-                                  }
-                                ]
-                              }
-                            },
-                            "constructInfo": {
-                              "fqn": "@aws-cdk/aws-ec2.CfnEIP",
-                              "version": "1.181.0"
-                            }
-                          },
-                          "NATGateway": {
-                            "id": "NATGateway",
-                            "path": "EksPipelineStack/EKSClusterA/EKSCluster/Vpc/PublicSubnet3/NATGateway",
-                            "attributes": {
-                              "aws:cdk:cloudformation:type": "AWS::EC2::NatGateway",
-                              "aws:cdk:cloudformation:props": {
-                                "subnetId": {
-                                  "Ref": "VpcPublicSubnet3SubnetBE12F0B6"
-                                },
-                                "allocationId": {
-                                  "Fn::GetAtt": [
-                                    "VpcPublicSubnet3EIP3A666A23",
-                                    "AllocationId"
-                                  ]
-                                },
-                                "tags": [
-                                  {
-                                    "key": "kubernetes.io/role/elb",
-                                    "value": "1"
-                                  },
-                                  {
-                                    "key": "Name",
-                                    "value": "EksPipelineStack/EKSClusterA/EKSCluster/Vpc/PublicSubnet3"
-                                  }
-                                ]
-                              }
-                            },
-                            "constructInfo": {
-                              "fqn": "@aws-cdk/aws-ec2.CfnNatGateway",
-                              "version": "1.181.0"
-                            }
-                          }
-                        },
-                        "constructInfo": {
-                          "fqn": "@aws-cdk/aws-ec2.PublicSubnet",
-                          "version": "1.181.0"
-                        }
-                      },
                       "PrivateSubnet1": {
                         "id": "PrivateSubnet1",
                         "path": "EksPipelineStack/EKSClusterA/EKSCluster/Vpc/PrivateSubnet1",
@@ -4014,8 +3838,8 @@
                                 "vpcId": {
                                   "Ref": "Vpc8378EB38"
                                 },
-                                "availabilityZone": "us-west-2a",
-                                "cidrBlock": "10.0.96.0/19",
+                                "availabilityZone": "us-west-1b",
+                                "cidrBlock": "10.0.128.0/18",
                                 "mapPublicIpOnLaunch": false,
                                 "tags": [
                                   {
@@ -4134,8 +3958,8 @@
                                 "vpcId": {
                                   "Ref": "Vpc8378EB38"
                                 },
-                                "availabilityZone": "us-west-2b",
-                                "cidrBlock": "10.0.128.0/19",
+                                "availabilityZone": "us-west-1c",
+                                "cidrBlock": "10.0.192.0/18",
                                 "mapPublicIpOnLaunch": false,
                                 "tags": [
                                   {
@@ -4227,126 +4051,6 @@
                                 "destinationCidrBlock": "0.0.0.0/0",
                                 "natGatewayId": {
                                   "Ref": "VpcPublicSubnet2NATGateway9182C01D"
-                                }
-                              }
-                            },
-                            "constructInfo": {
-                              "fqn": "@aws-cdk/aws-ec2.CfnRoute",
-                              "version": "1.181.0"
-                            }
-                          }
-                        },
-                        "constructInfo": {
-                          "fqn": "@aws-cdk/aws-ec2.PrivateSubnet",
-                          "version": "1.181.0"
-                        }
-                      },
-                      "PrivateSubnet3": {
-                        "id": "PrivateSubnet3",
-                        "path": "EksPipelineStack/EKSClusterA/EKSCluster/Vpc/PrivateSubnet3",
-                        "children": {
-                          "Subnet": {
-                            "id": "Subnet",
-                            "path": "EksPipelineStack/EKSClusterA/EKSCluster/Vpc/PrivateSubnet3/Subnet",
-                            "attributes": {
-                              "aws:cdk:cloudformation:type": "AWS::EC2::Subnet",
-                              "aws:cdk:cloudformation:props": {
-                                "vpcId": {
-                                  "Ref": "Vpc8378EB38"
-                                },
-                                "availabilityZone": "us-west-2c",
-                                "cidrBlock": "10.0.160.0/19",
-                                "mapPublicIpOnLaunch": false,
-                                "tags": [
-                                  {
-                                    "key": "aws-cdk:subnet-name",
-                                    "value": "Private"
-                                  },
-                                  {
-                                    "key": "aws-cdk:subnet-type",
-                                    "value": "Private"
-                                  },
-                                  {
-                                    "key": "kubernetes.io/role/internal-elb",
-                                    "value": "1"
-                                  },
-                                  {
-                                    "key": "Name",
-                                    "value": "EksPipelineStack/EKSClusterA/EKSCluster/Vpc/PrivateSubnet3"
-                                  }
-                                ]
-                              }
-                            },
-                            "constructInfo": {
-                              "fqn": "@aws-cdk/aws-ec2.CfnSubnet",
-                              "version": "1.181.0"
-                            }
-                          },
-                          "Acl": {
-                            "id": "Acl",
-                            "path": "EksPipelineStack/EKSClusterA/EKSCluster/Vpc/PrivateSubnet3/Acl",
-                            "constructInfo": {
-                              "fqn": "@aws-cdk/core.Resource",
-                              "version": "1.181.0"
-                            }
-                          },
-                          "RouteTable": {
-                            "id": "RouteTable",
-                            "path": "EksPipelineStack/EKSClusterA/EKSCluster/Vpc/PrivateSubnet3/RouteTable",
-                            "attributes": {
-                              "aws:cdk:cloudformation:type": "AWS::EC2::RouteTable",
-                              "aws:cdk:cloudformation:props": {
-                                "vpcId": {
-                                  "Ref": "Vpc8378EB38"
-                                },
-                                "tags": [
-                                  {
-                                    "key": "kubernetes.io/role/internal-elb",
-                                    "value": "1"
-                                  },
-                                  {
-                                    "key": "Name",
-                                    "value": "EksPipelineStack/EKSClusterA/EKSCluster/Vpc/PrivateSubnet3"
-                                  }
-                                ]
-                              }
-                            },
-                            "constructInfo": {
-                              "fqn": "@aws-cdk/aws-ec2.CfnRouteTable",
-                              "version": "1.181.0"
-                            }
-                          },
-                          "RouteTableAssociation": {
-                            "id": "RouteTableAssociation",
-                            "path": "EksPipelineStack/EKSClusterA/EKSCluster/Vpc/PrivateSubnet3/RouteTableAssociation",
-                            "attributes": {
-                              "aws:cdk:cloudformation:type": "AWS::EC2::SubnetRouteTableAssociation",
-                              "aws:cdk:cloudformation:props": {
-                                "routeTableId": {
-                                  "Ref": "VpcPrivateSubnet3RouteTableD98824C7"
-                                },
-                                "subnetId": {
-                                  "Ref": "VpcPrivateSubnet3SubnetF258B56E"
-                                }
-                              }
-                            },
-                            "constructInfo": {
-                              "fqn": "@aws-cdk/aws-ec2.CfnSubnetRouteTableAssociation",
-                              "version": "1.181.0"
-                            }
-                          },
-                          "DefaultRoute": {
-                            "id": "DefaultRoute",
-                            "path": "EksPipelineStack/EKSClusterA/EKSCluster/Vpc/PrivateSubnet3/DefaultRoute",
-                            "attributes": {
-                              "aws:cdk:cloudformation:type": "AWS::EC2::Route",
-                              "aws:cdk:cloudformation:props": {
-                                "routeTableId": {
-                                  "Ref": "VpcPrivateSubnet3RouteTableD98824C7"
-                                },
-                                "destinationCidrBlock": "0.0.0.0/0",
-                                "natGatewayId": {
-                                  "Ref": "VpcPublicSubnet3NATGateway7640CD1D"
                                 }
                               }
                             },
@@ -4580,7 +4284,7 @@
                                                       {
                                                         "Ref": "AWS::Partition"
                                                       },
-                                                      ":eks:us-west-2:312422985030:cluster/acme-blue"
+                                                      ":eks:us-west-1:312422985030:cluster/acme-blue"
                                                     ]
                                                   ]
                                                 },
@@ -4592,7 +4296,7 @@
                                                       {
                                                         "Ref": "AWS::Partition"
                                                       },
-                                                      ":eks:us-west-2:312422985030:cluster/acme-blue/*"
+                                                      ":eks:us-west-1:312422985030:cluster/acme-blue/*"
                                                     ]
                                                   ]
                                                 }
@@ -4612,7 +4316,7 @@
                                                     {
                                                       "Ref": "AWS::Partition"
                                                     },
-                                                    ":eks:us-west-2:312422985030:fargateprofile/acme-blue/*"
+                                                    ":eks:us-west-1:312422985030:fargateprofile/acme-blue/*"
                                                   ]
                                                 ]
                                               }
@@ -4836,9 +4540,6 @@
                                   },
                                   {
                                     "Ref": "VpcPrivateSubnet2Subnet3788AAA1"
-                                  },
-                                  {
-                                    "Ref": "VpcPrivateSubnet3SubnetF258B56E"
                                   }
                                 ],
                                 "amiType": "AL2_x86_64",
@@ -5909,7 +5610,7 @@
                               "aws:cdk:cloudformation:type": "AWS::Lambda::LayerVersion",
                               "aws:cdk:cloudformation:props": {
                                 "content": {
-                                  "s3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-2",
+                                  "s3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-1",
                                   "s3Key": "4288ebb3652acdf2d828b7db7ca44a7162a401ace50ebb4026e84b18a02a06ee.zip"
                                 },
                                 "description": "/opt/nodejs/node_modules/proxy-agent"
@@ -6053,7 +5754,7 @@
                               "aws:cdk:cloudformation:type": "AWS::Lambda::Function",
                               "aws:cdk:cloudformation:props": {
                                 "code": {
-                                  "s3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-2",
+                                  "s3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-1",
                                   "s3Key": "98908a88aa1d19a5175824f9f289b2d4736b7e17837f4e1ca871251a7505c02d.zip"
                                 },
                                 "role": {
@@ -6216,7 +5917,7 @@
                               "aws:cdk:cloudformation:type": "AWS::Lambda::Function",
                               "aws:cdk:cloudformation:props": {
                                 "code": {
-                                  "s3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-2",
+                                  "s3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-1",
                                   "s3Key": "98908a88aa1d19a5175824f9f289b2d4736b7e17837f4e1ca871251a7505c02d.zip"
                                 },
                                 "role": {
@@ -6435,7 +6136,7 @@
                                   "aws:cdk:cloudformation:type": "AWS::Lambda::Function",
                                   "aws:cdk:cloudformation:props": {
                                     "code": {
-                                      "s3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-2",
+                                      "s3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-1",
                                       "s3Key": "3b263c2ad043fd069ef446753788c36e595c82b51a70478e58258c8ef7471671.zip"
                                     },
                                     "role": {
@@ -6652,7 +6353,7 @@
                                   "aws:cdk:cloudformation:type": "AWS::Lambda::Function",
                                   "aws:cdk:cloudformation:props": {
                                     "code": {
-                                      "s3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-2",
+                                      "s3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-1",
                                       "s3Key": "3b263c2ad043fd069ef446753788c36e595c82b51a70478e58258c8ef7471671.zip"
                                     },
                                     "role": {
@@ -6866,7 +6567,7 @@
                                   "aws:cdk:cloudformation:type": "AWS::Lambda::Function",
                                   "aws:cdk:cloudformation:props": {
                                     "code": {
-                                      "s3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-2",
+                                      "s3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-1",
                                       "s3Key": "3b263c2ad043fd069ef446753788c36e595c82b51a70478e58258c8ef7471671.zip"
                                     },
                                     "role": {
@@ -6928,7 +6629,7 @@
                                               "Action": "sts:AssumeRole",
                                               "Effect": "Allow",
                                               "Principal": {
-                                                "Service": "states.us-west-2.amazonaws.com"
+                                                "Service": "states.us-west-1.amazonaws.com"
                                               }
                                             }
                                           ],
@@ -7107,11 +6808,11 @@
                               "Fn::Join": [
                                 "",
                                 [
-                                  "https://s3.us-west-2.",
+                                  "https://s3.us-west-1.",
                                   {
                                     "Ref": "AWS::URLSuffix"
                                   },
-                                  "/cdk-hnb659fds-assets-312422985030-us-west-2/0766f96e70722e30d46d962de8c8f6197d0eb225aee0ea0e20c3c75b9e5ec3c2.json"
+                                  "/cdk-hnb659fds-assets-312422985030-us-west-1/5d50e6594c867ad03d91f21ce79edf50baf1ed9305fec6c1e24bf9eeaf0867ea.json"
                                 ]
                               ]
                             },
@@ -7298,7 +6999,7 @@
                               "aws:cdk:cloudformation:type": "AWS::Lambda::Function",
                               "aws:cdk:cloudformation:props": {
                                 "code": {
-                                  "s3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-2",
+                                  "s3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-1",
                                   "s3Key": "5a0165b80474734eff290897da1c8d571862f020eeaac2561c839386159c7f03.zip"
                                 },
                                 "role": {
@@ -7327,9 +7028,6 @@
                                     },
                                     {
                                       "Ref": "referencetoEksPipelineStackEKSClusterAEKSClusterVpcPrivateSubnet2SubnetADA63100Ref"
-                                    },
-                                    {
-                                      "Ref": "referencetoEksPipelineStackEKSClusterAEKSClusterVpcPrivateSubnet3Subnet4CA62B35Ref"
                                     }
                                   ],
                                   "securityGroupIds": [
@@ -7388,7 +7086,7 @@
                               "aws:cdk:cloudformation:type": "AWS::Lambda::LayerVersion",
                               "aws:cdk:cloudformation:props": {
                                 "content": {
-                                  "s3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-2",
+                                  "s3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-1",
                                   "s3Key": "c5a03f09adbaa6b0a994d730878f7c614af123fff7b9439e7ca357dc66f72e92.zip"
                                 },
                                 "description": "/opt/awscli/aws"
@@ -7442,7 +7140,7 @@
                               "aws:cdk:cloudformation:type": "AWS::Lambda::LayerVersion",
                               "aws:cdk:cloudformation:props": {
                                 "content": {
-                                  "s3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-2",
+                                  "s3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-1",
                                   "s3Key": "c6964dbf0c556ec82ce09622e99ad6f6d4e488cdaac0ef9e8492e078ec61ffed.zip"
                                 },
                                 "description": "/opt/kubectl/kubectl and /opt/helm/helm"
@@ -7621,7 +7319,7 @@
                                   "aws:cdk:cloudformation:type": "AWS::Lambda::Function",
                                   "aws:cdk:cloudformation:props": {
                                     "code": {
-                                      "s3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-2",
+                                      "s3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-1",
                                       "s3Key": "3b263c2ad043fd069ef446753788c36e595c82b51a70478e58258c8ef7471671.zip"
                                     },
                                     "role": {
@@ -7651,9 +7349,6 @@
                                         },
                                         {
                                           "Ref": "referencetoEksPipelineStackEKSClusterAEKSClusterVpcPrivateSubnet2SubnetADA63100Ref"
-                                        },
-                                        {
-                                          "Ref": "referencetoEksPipelineStackEKSClusterAEKSClusterVpcPrivateSubnet3Subnet4CA62B35Ref"
                                         }
                                       ],
                                       "securityGroupIds": [
@@ -7739,14 +7434,6 @@
                           "version": "1.181.0"
                         }
                       },
-                      "reference-to-EksPipelineStackEKSClusterAEKSClusterVpcPrivateSubnet3Subnet4CA62B35Ref": {
-                        "id": "reference-to-EksPipelineStackEKSClusterAEKSClusterVpcPrivateSubnet3Subnet4CA62B35Ref",
-                        "path": "EksPipelineStack/EKSClusterA/EKSCluster/@aws-cdk--aws-eks.KubectlProvider/reference-to-EksPipelineStackEKSClusterAEKSClusterVpcPrivateSubnet3Subnet4CA62B35Ref",
-                        "constructInfo": {
-                          "fqn": "@aws-cdk/core.CfnParameter",
-                          "version": "1.181.0"
-                        }
-                      },
                       "reference-to-EksPipelineStackEKSClusterAEKSClusteracmeblue2792BF74ClusterSecurityGroupId": {
                         "id": "reference-to-EksPipelineStackEKSClusterAEKSClusteracmeblue2792BF74ClusterSecurityGroupId",
                         "path": "EksPipelineStack/EKSClusterA/EKSCluster/@aws-cdk--aws-eks.KubectlProvider/reference-to-EksPipelineStackEKSClusterAEKSClusteracmeblue2792BF74ClusterSecurityGroupId",
@@ -7775,11 +7462,11 @@
                               "Fn::Join": [
                                 "",
                                 [
-                                  "https://s3.us-west-2.",
+                                  "https://s3.us-west-1.",
                                   {
                                     "Ref": "AWS::URLSuffix"
                                   },
-                                  "/cdk-hnb659fds-assets-312422985030-us-west-2/bb5bab4c5f0447395c4a03a000ed9f2f64455ef4683329e3b8873ddd8a383029.json"
+                                  "/cdk-hnb659fds-assets-312422985030-us-west-1/b85605524c56e9f0244e32f3fa1ccb9a9695e697a1acfe7447201488462b3656.json"
                                 ]
                               ]
                             },
@@ -7801,9 +7488,6 @@
                               },
                               "referencetoEksPipelineStackEKSClusterAEKSClusterVpcPrivateSubnet2SubnetADA63100Ref": {
                                 "Ref": "VpcPrivateSubnet2Subnet3788AAA1"
-                              },
-                              "referencetoEksPipelineStackEKSClusterAEKSClusterVpcPrivateSubnet3Subnet4CA62B35Ref": {
-                                "Ref": "VpcPrivateSubnet3SubnetF258B56E"
                               },
                               "referencetoEksPipelineStackEKSClusterAEKSClusteracmeblue2792BF74ClusterSecurityGroupId": {
                                 "Fn::GetAtt": [
@@ -8558,8 +8242,8 @@
                                 "vpcId": {
                                   "Ref": "Vpc8378EB38"
                                 },
-                                "availabilityZone": "us-west-2a",
-                                "cidrBlock": "10.0.0.0/19",
+                                "availabilityZone": "us-west-1b",
+                                "cidrBlock": "10.0.0.0/18",
                                 "mapPublicIpOnLaunch": true,
                                 "tags": [
                                   {
@@ -8734,8 +8418,8 @@
                                 "vpcId": {
                                   "Ref": "Vpc8378EB38"
                                 },
-                                "availabilityZone": "us-west-2b",
-                                "cidrBlock": "10.0.32.0/19",
+                                "availabilityZone": "us-west-1c",
+                                "cidrBlock": "10.0.64.0/18",
                                 "mapPublicIpOnLaunch": true,
                                 "tags": [
                                   {
@@ -8897,182 +8581,6 @@
                           "version": "1.181.0"
                         }
                       },
-                      "PublicSubnet3": {
-                        "id": "PublicSubnet3",
-                        "path": "EksPipelineStack/EKSClusterB/EKSCluster/Vpc/PublicSubnet3",
-                        "children": {
-                          "Subnet": {
-                            "id": "Subnet",
-                            "path": "EksPipelineStack/EKSClusterB/EKSCluster/Vpc/PublicSubnet3/Subnet",
-                            "attributes": {
-                              "aws:cdk:cloudformation:type": "AWS::EC2::Subnet",
-                              "aws:cdk:cloudformation:props": {
-                                "vpcId": {
-                                  "Ref": "Vpc8378EB38"
-                                },
-                                "availabilityZone": "us-west-2c",
-                                "cidrBlock": "10.0.64.0/19",
-                                "mapPublicIpOnLaunch": true,
-                                "tags": [
-                                  {
-                                    "key": "aws-cdk:subnet-name",
-                                    "value": "Public"
-                                  },
-                                  {
-                                    "key": "aws-cdk:subnet-type",
-                                    "value": "Public"
-                                  },
-                                  {
-                                    "key": "kubernetes.io/role/elb",
-                                    "value": "1"
-                                  },
-                                  {
-                                    "key": "Name",
-                                    "value": "EksPipelineStack/EKSClusterB/EKSCluster/Vpc/PublicSubnet3"
-                                  }
-                                ]
-                              }
-                            },
-                            "constructInfo": {
-                              "fqn": "@aws-cdk/aws-ec2.CfnSubnet",
-                              "version": "1.181.0"
-                            }
-                          },
-                          "Acl": {
-                            "id": "Acl",
-                            "path": "EksPipelineStack/EKSClusterB/EKSCluster/Vpc/PublicSubnet3/Acl",
-                            "constructInfo": {
-                              "fqn": "@aws-cdk/core.Resource",
-                              "version": "1.181.0"
-                            }
-                          },
-                          "RouteTable": {
-                            "id": "RouteTable",
-                            "path": "EksPipelineStack/EKSClusterB/EKSCluster/Vpc/PublicSubnet3/RouteTable",
-                            "attributes": {
-                              "aws:cdk:cloudformation:type": "AWS::EC2::RouteTable",
-                              "aws:cdk:cloudformation:props": {
-                                "vpcId": {
-                                  "Ref": "Vpc8378EB38"
-                                },
-                                "tags": [
-                                  {
-                                    "key": "kubernetes.io/role/elb",
-                                    "value": "1"
-                                  },
-                                  {
-                                    "key": "Name",
-                                    "value": "EksPipelineStack/EKSClusterB/EKSCluster/Vpc/PublicSubnet3"
-                                  }
-                                ]
-                              }
-                            },
-                            "constructInfo": {
-                              "fqn": "@aws-cdk/aws-ec2.CfnRouteTable",
-                              "version": "1.181.0"
-                            }
-                          },
-                          "RouteTableAssociation": {
-                            "id": "RouteTableAssociation",
-                            "path": "EksPipelineStack/EKSClusterB/EKSCluster/Vpc/PublicSubnet3/RouteTableAssociation",
-                            "attributes": {
-                              "aws:cdk:cloudformation:type": "AWS::EC2::SubnetRouteTableAssociation",
-                              "aws:cdk:cloudformation:props": {
-                                "routeTableId": {
-                                  "Ref": "VpcPublicSubnet3RouteTable93458DBB"
-                                },
-                                "subnetId": {
-                                  "Ref": "VpcPublicSubnet3SubnetBE12F0B6"
-                                }
-                              }
-                            },
-                            "constructInfo": {
-                              "fqn": "@aws-cdk/aws-ec2.CfnSubnetRouteTableAssociation",
-                              "version": "1.181.0"
-                            }
-                          },
-                          "DefaultRoute": {
-                            "id": "DefaultRoute",
-                            "path": "EksPipelineStack/EKSClusterB/EKSCluster/Vpc/PublicSubnet3/DefaultRoute",
-                            "attributes": {
-                              "aws:cdk:cloudformation:type": "AWS::EC2::Route",
-                              "aws:cdk:cloudformation:props": {
-                                "routeTableId": {
-                                  "Ref": "VpcPublicSubnet3RouteTable93458DBB"
-                                },
-                                "destinationCidrBlock": "0.0.0.0/0",
-                                "gatewayId": {
-                                  "Ref": "VpcIGWD7BA715C"
-                                }
-                              }
-                            },
-                            "constructInfo": {
-                              "fqn": "@aws-cdk/aws-ec2.CfnRoute",
-                              "version": "1.181.0"
-                            }
-                          },
-                          "EIP": {
-                            "id": "EIP",
-                            "path": "EksPipelineStack/EKSClusterB/EKSCluster/Vpc/PublicSubnet3/EIP",
-                            "attributes": {
-                              "aws:cdk:cloudformation:type": "AWS::EC2::EIP",
-                              "aws:cdk:cloudformation:props": {
-                                "domain": "vpc",
-                                "tags": [
-                                  {
-                                    "key": "kubernetes.io/role/elb",
-                                    "value": "1"
-                                  },
-                                  {
-                                    "key": "Name",
-                                    "value": "EksPipelineStack/EKSClusterB/EKSCluster/Vpc/PublicSubnet3"
-                                  }
-                                ]
-                              }
-                            },
-                            "constructInfo": {
-                              "fqn": "@aws-cdk/aws-ec2.CfnEIP",
-                              "version": "1.181.0"
-                            }
-                          },
-                          "NATGateway": {
-                            "id": "NATGateway",
-                            "path": "EksPipelineStack/EKSClusterB/EKSCluster/Vpc/PublicSubnet3/NATGateway",
-                            "attributes": {
-                              "aws:cdk:cloudformation:type": "AWS::EC2::NatGateway",
-                              "aws:cdk:cloudformation:props": {
-                                "subnetId": {
-                                  "Ref": "VpcPublicSubnet3SubnetBE12F0B6"
-                                },
-                                "allocationId": {
-                                  "Fn::GetAtt": [
-                                    "VpcPublicSubnet3EIP3A666A23",
-                                    "AllocationId"
-                                  ]
-                                },
-                                "tags": [
-                                  {
-                                    "key": "kubernetes.io/role/elb",
-                                    "value": "1"
-                                  },
-                                  {
-                                    "key": "Name",
-                                    "value": "EksPipelineStack/EKSClusterB/EKSCluster/Vpc/PublicSubnet3"
-                                  }
-                                ]
-                              }
-                            },
-                            "constructInfo": {
-                              "fqn": "@aws-cdk/aws-ec2.CfnNatGateway",
-                              "version": "1.181.0"
-                            }
-                          }
-                        },
-                        "constructInfo": {
-                          "fqn": "@aws-cdk/aws-ec2.PublicSubnet",
-                          "version": "1.181.0"
-                        }
-                      },
                       "PrivateSubnet1": {
                         "id": "PrivateSubnet1",
                         "path": "EksPipelineStack/EKSClusterB/EKSCluster/Vpc/PrivateSubnet1",
@@ -9086,8 +8594,8 @@
                                 "vpcId": {
                                   "Ref": "Vpc8378EB38"
                                 },
-                                "availabilityZone": "us-west-2a",
-                                "cidrBlock": "10.0.96.0/19",
+                                "availabilityZone": "us-west-1b",
+                                "cidrBlock": "10.0.128.0/18",
                                 "mapPublicIpOnLaunch": false,
                                 "tags": [
                                   {
@@ -9206,8 +8714,8 @@
                                 "vpcId": {
                                   "Ref": "Vpc8378EB38"
                                 },
-                                "availabilityZone": "us-west-2b",
-                                "cidrBlock": "10.0.128.0/19",
+                                "availabilityZone": "us-west-1c",
+                                "cidrBlock": "10.0.192.0/18",
                                 "mapPublicIpOnLaunch": false,
                                 "tags": [
                                   {
@@ -9299,126 +8807,6 @@
                                 "destinationCidrBlock": "0.0.0.0/0",
                                 "natGatewayId": {
                                   "Ref": "VpcPublicSubnet2NATGateway9182C01D"
-                                }
-                              }
-                            },
-                            "constructInfo": {
-                              "fqn": "@aws-cdk/aws-ec2.CfnRoute",
-                              "version": "1.181.0"
-                            }
-                          }
-                        },
-                        "constructInfo": {
-                          "fqn": "@aws-cdk/aws-ec2.PrivateSubnet",
-                          "version": "1.181.0"
-                        }
-                      },
-                      "PrivateSubnet3": {
-                        "id": "PrivateSubnet3",
-                        "path": "EksPipelineStack/EKSClusterB/EKSCluster/Vpc/PrivateSubnet3",
-                        "children": {
-                          "Subnet": {
-                            "id": "Subnet",
-                            "path": "EksPipelineStack/EKSClusterB/EKSCluster/Vpc/PrivateSubnet3/Subnet",
-                            "attributes": {
-                              "aws:cdk:cloudformation:type": "AWS::EC2::Subnet",
-                              "aws:cdk:cloudformation:props": {
-                                "vpcId": {
-                                  "Ref": "Vpc8378EB38"
-                                },
-                                "availabilityZone": "us-west-2c",
-                                "cidrBlock": "10.0.160.0/19",
-                                "mapPublicIpOnLaunch": false,
-                                "tags": [
-                                  {
-                                    "key": "aws-cdk:subnet-name",
-                                    "value": "Private"
-                                  },
-                                  {
-                                    "key": "aws-cdk:subnet-type",
-                                    "value": "Private"
-                                  },
-                                  {
-                                    "key": "kubernetes.io/role/internal-elb",
-                                    "value": "1"
-                                  },
-                                  {
-                                    "key": "Name",
-                                    "value": "EksPipelineStack/EKSClusterB/EKSCluster/Vpc/PrivateSubnet3"
-                                  }
-                                ]
-                              }
-                            },
-                            "constructInfo": {
-                              "fqn": "@aws-cdk/aws-ec2.CfnSubnet",
-                              "version": "1.181.0"
-                            }
-                          },
-                          "Acl": {
-                            "id": "Acl",
-                            "path": "EksPipelineStack/EKSClusterB/EKSCluster/Vpc/PrivateSubnet3/Acl",
-                            "constructInfo": {
-                              "fqn": "@aws-cdk/core.Resource",
-                              "version": "1.181.0"
-                            }
-                          },
-                          "RouteTable": {
-                            "id": "RouteTable",
-                            "path": "EksPipelineStack/EKSClusterB/EKSCluster/Vpc/PrivateSubnet3/RouteTable",
-                            "attributes": {
-                              "aws:cdk:cloudformation:type": "AWS::EC2::RouteTable",
-                              "aws:cdk:cloudformation:props": {
-                                "vpcId": {
-                                  "Ref": "Vpc8378EB38"
-                                },
-                                "tags": [
-                                  {
-                                    "key": "kubernetes.io/role/internal-elb",
-                                    "value": "1"
-                                  },
-                                  {
-                                    "key": "Name",
-                                    "value": "EksPipelineStack/EKSClusterB/EKSCluster/Vpc/PrivateSubnet3"
-                                  }
-                                ]
-                              }
-                            },
-                            "constructInfo": {
-                              "fqn": "@aws-cdk/aws-ec2.CfnRouteTable",
-                              "version": "1.181.0"
-                            }
-                          },
-                          "RouteTableAssociation": {
-                            "id": "RouteTableAssociation",
-                            "path": "EksPipelineStack/EKSClusterB/EKSCluster/Vpc/PrivateSubnet3/RouteTableAssociation",
-                            "attributes": {
-                              "aws:cdk:cloudformation:type": "AWS::EC2::SubnetRouteTableAssociation",
-                              "aws:cdk:cloudformation:props": {
-                                "routeTableId": {
-                                  "Ref": "VpcPrivateSubnet3RouteTableD98824C7"
-                                },
-                                "subnetId": {
-                                  "Ref": "VpcPrivateSubnet3SubnetF258B56E"
-                                }
-                              }
-                            },
-                            "constructInfo": {
-                              "fqn": "@aws-cdk/aws-ec2.CfnSubnetRouteTableAssociation",
-                              "version": "1.181.0"
-                            }
-                          },
-                          "DefaultRoute": {
-                            "id": "DefaultRoute",
-                            "path": "EksPipelineStack/EKSClusterB/EKSCluster/Vpc/PrivateSubnet3/DefaultRoute",
-                            "attributes": {
-                              "aws:cdk:cloudformation:type": "AWS::EC2::Route",
-                              "aws:cdk:cloudformation:props": {
-                                "routeTableId": {
-                                  "Ref": "VpcPrivateSubnet3RouteTableD98824C7"
-                                },
-                                "destinationCidrBlock": "0.0.0.0/0",
-                                "natGatewayId": {
-                                  "Ref": "VpcPublicSubnet3NATGateway7640CD1D"
                                 }
                               }
                             },
@@ -9652,7 +9040,7 @@
                                                       {
                                                         "Ref": "AWS::Partition"
                                                       },
-                                                      ":eks:us-west-2:312422985030:cluster/acme-green"
+                                                      ":eks:us-west-1:312422985030:cluster/acme-green"
                                                     ]
                                                   ]
                                                 },
@@ -9664,7 +9052,7 @@
                                                       {
                                                         "Ref": "AWS::Partition"
                                                       },
-                                                      ":eks:us-west-2:312422985030:cluster/acme-green/*"
+                                                      ":eks:us-west-1:312422985030:cluster/acme-green/*"
                                                     ]
                                                   ]
                                                 }
@@ -9684,7 +9072,7 @@
                                                     {
                                                       "Ref": "AWS::Partition"
                                                     },
-                                                    ":eks:us-west-2:312422985030:fargateprofile/acme-green/*"
+                                                    ":eks:us-west-1:312422985030:fargateprofile/acme-green/*"
                                                   ]
                                                 ]
                                               }
@@ -9908,9 +9296,6 @@
                                   },
                                   {
                                     "Ref": "VpcPrivateSubnet2Subnet3788AAA1"
-                                  },
-                                  {
-                                    "Ref": "VpcPrivateSubnet3SubnetF258B56E"
                                   }
                                 ],
                                 "amiType": "AL2_x86_64",
@@ -10981,7 +10366,7 @@
                               "aws:cdk:cloudformation:type": "AWS::Lambda::LayerVersion",
                               "aws:cdk:cloudformation:props": {
                                 "content": {
-                                  "s3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-2",
+                                  "s3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-1",
                                   "s3Key": "4288ebb3652acdf2d828b7db7ca44a7162a401ace50ebb4026e84b18a02a06ee.zip"
                                 },
                                 "description": "/opt/nodejs/node_modules/proxy-agent"
@@ -11125,7 +10510,7 @@
                               "aws:cdk:cloudformation:type": "AWS::Lambda::Function",
                               "aws:cdk:cloudformation:props": {
                                 "code": {
-                                  "s3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-2",
+                                  "s3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-1",
                                   "s3Key": "98908a88aa1d19a5175824f9f289b2d4736b7e17837f4e1ca871251a7505c02d.zip"
                                 },
                                 "role": {
@@ -11288,7 +10673,7 @@
                               "aws:cdk:cloudformation:type": "AWS::Lambda::Function",
                               "aws:cdk:cloudformation:props": {
                                 "code": {
-                                  "s3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-2",
+                                  "s3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-1",
                                   "s3Key": "98908a88aa1d19a5175824f9f289b2d4736b7e17837f4e1ca871251a7505c02d.zip"
                                 },
                                 "role": {
@@ -11507,7 +10892,7 @@
                                   "aws:cdk:cloudformation:type": "AWS::Lambda::Function",
                                   "aws:cdk:cloudformation:props": {
                                     "code": {
-                                      "s3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-2",
+                                      "s3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-1",
                                       "s3Key": "3b263c2ad043fd069ef446753788c36e595c82b51a70478e58258c8ef7471671.zip"
                                     },
                                     "role": {
@@ -11724,7 +11109,7 @@
                                   "aws:cdk:cloudformation:type": "AWS::Lambda::Function",
                                   "aws:cdk:cloudformation:props": {
                                     "code": {
-                                      "s3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-2",
+                                      "s3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-1",
                                       "s3Key": "3b263c2ad043fd069ef446753788c36e595c82b51a70478e58258c8ef7471671.zip"
                                     },
                                     "role": {
@@ -11938,7 +11323,7 @@
                                   "aws:cdk:cloudformation:type": "AWS::Lambda::Function",
                                   "aws:cdk:cloudformation:props": {
                                     "code": {
-                                      "s3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-2",
+                                      "s3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-1",
                                       "s3Key": "3b263c2ad043fd069ef446753788c36e595c82b51a70478e58258c8ef7471671.zip"
                                     },
                                     "role": {
@@ -12000,7 +11385,7 @@
                                               "Action": "sts:AssumeRole",
                                               "Effect": "Allow",
                                               "Principal": {
-                                                "Service": "states.us-west-2.amazonaws.com"
+                                                "Service": "states.us-west-1.amazonaws.com"
                                               }
                                             }
                                           ],
@@ -12179,11 +11564,11 @@
                               "Fn::Join": [
                                 "",
                                 [
-                                  "https://s3.us-west-2.",
+                                  "https://s3.us-west-1.",
                                   {
                                     "Ref": "AWS::URLSuffix"
                                   },
-                                  "/cdk-hnb659fds-assets-312422985030-us-west-2/df1f919b3e6a975fcda251cac724bdb9e5eee1a8aa4b7311ecd1e3bec3978579.json"
+                                  "/cdk-hnb659fds-assets-312422985030-us-west-1/dd3598a40da8bc9aa3e0e4b3ae7ac06c81665e628691752fc1d831c39b133c5d.json"
                                 ]
                               ]
                             },
@@ -12370,7 +11755,7 @@
                               "aws:cdk:cloudformation:type": "AWS::Lambda::Function",
                               "aws:cdk:cloudformation:props": {
                                 "code": {
-                                  "s3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-2",
+                                  "s3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-1",
                                   "s3Key": "5a0165b80474734eff290897da1c8d571862f020eeaac2561c839386159c7f03.zip"
                                 },
                                 "role": {
@@ -12399,9 +11784,6 @@
                                     },
                                     {
                                       "Ref": "referencetoEksPipelineStackEKSClusterBEKSClusterVpcPrivateSubnet2SubnetF8D4D290Ref"
-                                    },
-                                    {
-                                      "Ref": "referencetoEksPipelineStackEKSClusterBEKSClusterVpcPrivateSubnet3Subnet8420D34ARef"
                                     }
                                   ],
                                   "securityGroupIds": [
@@ -12460,7 +11842,7 @@
                               "aws:cdk:cloudformation:type": "AWS::Lambda::LayerVersion",
                               "aws:cdk:cloudformation:props": {
                                 "content": {
-                                  "s3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-2",
+                                  "s3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-1",
                                   "s3Key": "c5a03f09adbaa6b0a994d730878f7c614af123fff7b9439e7ca357dc66f72e92.zip"
                                 },
                                 "description": "/opt/awscli/aws"
@@ -12514,7 +11896,7 @@
                               "aws:cdk:cloudformation:type": "AWS::Lambda::LayerVersion",
                               "aws:cdk:cloudformation:props": {
                                 "content": {
-                                  "s3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-2",
+                                  "s3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-1",
                                   "s3Key": "c6964dbf0c556ec82ce09622e99ad6f6d4e488cdaac0ef9e8492e078ec61ffed.zip"
                                 },
                                 "description": "/opt/kubectl/kubectl and /opt/helm/helm"
@@ -12693,7 +12075,7 @@
                                   "aws:cdk:cloudformation:type": "AWS::Lambda::Function",
                                   "aws:cdk:cloudformation:props": {
                                     "code": {
-                                      "s3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-2",
+                                      "s3Bucket": "cdk-hnb659fds-assets-312422985030-us-west-1",
                                       "s3Key": "3b263c2ad043fd069ef446753788c36e595c82b51a70478e58258c8ef7471671.zip"
                                     },
                                     "role": {
@@ -12723,9 +12105,6 @@
                                         },
                                         {
                                           "Ref": "referencetoEksPipelineStackEKSClusterBEKSClusterVpcPrivateSubnet2SubnetF8D4D290Ref"
-                                        },
-                                        {
-                                          "Ref": "referencetoEksPipelineStackEKSClusterBEKSClusterVpcPrivateSubnet3Subnet8420D34ARef"
                                         }
                                       ],
                                       "securityGroupIds": [
@@ -12811,14 +12190,6 @@
                           "version": "1.181.0"
                         }
                       },
-                      "reference-to-EksPipelineStackEKSClusterBEKSClusterVpcPrivateSubnet3Subnet8420D34ARef": {
-                        "id": "reference-to-EksPipelineStackEKSClusterBEKSClusterVpcPrivateSubnet3Subnet8420D34ARef",
-                        "path": "EksPipelineStack/EKSClusterB/EKSCluster/@aws-cdk--aws-eks.KubectlProvider/reference-to-EksPipelineStackEKSClusterBEKSClusterVpcPrivateSubnet3Subnet8420D34ARef",
-                        "constructInfo": {
-                          "fqn": "@aws-cdk/core.CfnParameter",
-                          "version": "1.181.0"
-                        }
-                      },
                       "reference-to-EksPipelineStackEKSClusterBEKSClusteracmegreen2F526E4AClusterSecurityGroupId": {
                         "id": "reference-to-EksPipelineStackEKSClusterBEKSClusteracmegreen2F526E4AClusterSecurityGroupId",
                         "path": "EksPipelineStack/EKSClusterB/EKSCluster/@aws-cdk--aws-eks.KubectlProvider/reference-to-EksPipelineStackEKSClusterBEKSClusteracmegreen2F526E4AClusterSecurityGroupId",
@@ -12847,11 +12218,11 @@
                               "Fn::Join": [
                                 "",
                                 [
-                                  "https://s3.us-west-2.",
+                                  "https://s3.us-west-1.",
                                   {
                                     "Ref": "AWS::URLSuffix"
                                   },
-                                  "/cdk-hnb659fds-assets-312422985030-us-west-2/bfe6f223eff481660926cf65757991c67b44daac190fb0577648dd16527899a6.json"
+                                  "/cdk-hnb659fds-assets-312422985030-us-west-1/b4d2c81b45ac7047215d774773d9ed6dcf178c073b4a19c393740a006458ba15.json"
                                 ]
                               ]
                             },
@@ -12873,9 +12244,6 @@
                               },
                               "referencetoEksPipelineStackEKSClusterBEKSClusterVpcPrivateSubnet2SubnetF8D4D290Ref": {
                                 "Ref": "VpcPrivateSubnet2Subnet3788AAA1"
-                              },
-                              "referencetoEksPipelineStackEKSClusterBEKSClusterVpcPrivateSubnet3Subnet8420D34ARef": {
-                                "Ref": "VpcPrivateSubnet3SubnetF258B56E"
                               },
                               "referencetoEksPipelineStackEKSClusterBEKSClusteracmegreen2F526E4AClusterSecurityGroupId": {
                                 "Fn::GetAtt": [

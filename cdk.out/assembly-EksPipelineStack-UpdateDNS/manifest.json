@@ -11,7 +11,7 @@
     },
     "EksPipelineStackUpdateDNSAppDnsEBA64D87": {
       "type": "aws:cloudformation:stack",
-      "environment": "aws://312422985030/us-west-2",
+      "environment": "aws://312422985030/us-west-1",
       "properties": {
         "templateFile": "EksPipelineStackUpdateDNSAppDnsEBA64D87.template.json",
         "tags": {
@@ -19,16 +19,16 @@
           "Environment": "UpdateDNS"
         },
         "validateOnSynth": true,
-        "assumeRoleArn": "arn:${AWS::Partition}:iam::312422985030:role/cdk-hnb659fds-deploy-role-312422985030-us-west-2",
-        "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::312422985030:role/cdk-hnb659fds-cfn-exec-role-312422985030-us-west-2",
-        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-312422985030-us-west-2/541a9ff6326bcab7c33efb0c6cd5d30599e22c3b2733917400e1c2b5680824e2.json",
+        "assumeRoleArn": "arn:${AWS::Partition}:iam::312422985030:role/cdk-hnb659fds-deploy-role-312422985030-us-west-1",
+        "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::312422985030:role/cdk-hnb659fds-cfn-exec-role-312422985030-us-west-1",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-312422985030-us-west-1/541a9ff6326bcab7c33efb0c6cd5d30599e22c3b2733917400e1c2b5680824e2.json",
         "requiresBootstrapStackVersion": 6,
         "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
         "additionalDependencies": [
           "EksPipelineStackUpdateDNSAppDnsEBA64D87.assets"
         ],
         "lookupRole": {
-          "arn": "arn:${AWS::Partition}:iam::312422985030:role/cdk-hnb659fds-lookup-role-312422985030-us-west-2",
+          "arn": "arn:${AWS::Partition}:iam::312422985030:role/cdk-hnb659fds-lookup-role-312422985030-us-west-1",
           "requiresBootstrapStackVersion": 8,
           "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
         },

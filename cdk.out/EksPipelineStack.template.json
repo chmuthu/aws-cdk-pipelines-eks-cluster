@@ -83,7 +83,7 @@
            {
             "Ref": "AWS::Partition"
            },
-           ":iam::312422985030:role/cdk-hnb659fds-deploy-role-312422985030-us-west-2"
+           ":iam::312422985030:role/cdk-hnb659fds-deploy-role-312422985030-us-west-1"
           ]
          ]
         }
@@ -202,7 +202,7 @@
           {
            "Ref": "AWS::Partition"
           },
-          ":iam::312422985030:role/cdk-hnb659fds-deploy-role-312422985030-us-west-2"
+          ":iam::312422985030:role/cdk-hnb659fds-deploy-role-312422985030-us-west-1"
          ]
         ]
        }
@@ -674,7 +674,7 @@
             {
              "Ref": "AWS::Partition"
             },
-            ":iam::312422985030:role/cdk-hnb659fds-cfn-exec-role-312422985030-us-west-2"
+            ":iam::312422985030:role/cdk-hnb659fds-cfn-exec-role-312422985030-us-west-1"
            ]
           ]
          },
@@ -697,7 +697,7 @@
            {
             "Ref": "AWS::Partition"
            },
-           ":iam::312422985030:role/cdk-hnb659fds-deploy-role-312422985030-us-west-2"
+           ":iam::312422985030:role/cdk-hnb659fds-deploy-role-312422985030-us-west-1"
           ]
          ]
         },
@@ -721,7 +721,7 @@
             {
              "Ref": "AWS::Partition"
             },
-            ":iam::312422985030:role/cdk-hnb659fds-cfn-exec-role-312422985030-us-west-2"
+            ":iam::312422985030:role/cdk-hnb659fds-cfn-exec-role-312422985030-us-west-1"
            ]
           ]
          },
@@ -744,7 +744,7 @@
            {
             "Ref": "AWS::Partition"
            },
-           ":iam::312422985030:role/cdk-hnb659fds-deploy-role-312422985030-us-west-2"
+           ":iam::312422985030:role/cdk-hnb659fds-deploy-role-312422985030-us-west-1"
           ]
          ]
         },
@@ -771,7 +771,7 @@
            {
             "Ref": "AWS::Partition"
            },
-           ":iam::312422985030:role/cdk-hnb659fds-deploy-role-312422985030-us-west-2"
+           ":iam::312422985030:role/cdk-hnb659fds-deploy-role-312422985030-us-west-1"
           ]
          ]
         },
@@ -798,7 +798,7 @@
            {
             "Ref": "AWS::Partition"
            },
-           ":iam::312422985030:role/cdk-hnb659fds-deploy-role-312422985030-us-west-2"
+           ":iam::312422985030:role/cdk-hnb659fds-deploy-role-312422985030-us-west-1"
           ]
          ]
         },
@@ -895,7 +895,7 @@
             {
              "Ref": "AWS::Partition"
             },
-            ":iam::312422985030:role/cdk-hnb659fds-cfn-exec-role-312422985030-us-west-2"
+            ":iam::312422985030:role/cdk-hnb659fds-cfn-exec-role-312422985030-us-west-1"
            ]
           ]
          },
@@ -918,7 +918,7 @@
            {
             "Ref": "AWS::Partition"
            },
-           ":iam::312422985030:role/cdk-hnb659fds-deploy-role-312422985030-us-west-2"
+           ":iam::312422985030:role/cdk-hnb659fds-deploy-role-312422985030-us-west-1"
           ]
          ]
         },
@@ -945,7 +945,7 @@
            {
             "Ref": "AWS::Partition"
            },
-           ":iam::312422985030:role/cdk-hnb659fds-deploy-role-312422985030-us-west-2"
+           ":iam::312422985030:role/cdk-hnb659fds-deploy-role-312422985030-us-west-1"
           ]
          ]
         },
@@ -1037,7 +1037,7 @@
            {
             "Ref": "AWS::Partition"
            },
-           ":logs:us-west-2:312422985030:log-group:/aws/codebuild/",
+           ":logs:us-west-1:312422985030:log-group:/aws/codebuild/",
            {
             "Ref": "PipelineBuildSynthCdkBuildProject6BEFA8E6"
            }
@@ -1052,7 +1052,7 @@
            {
             "Ref": "AWS::Partition"
            },
-           ":logs:us-west-2:312422985030:log-group:/aws/codebuild/",
+           ":logs:us-west-1:312422985030:log-group:/aws/codebuild/",
            {
             "Ref": "PipelineBuildSynthCdkBuildProject6BEFA8E6"
            },
@@ -1079,7 +1079,7 @@
           {
            "Ref": "AWS::Partition"
           },
-          ":codebuild:us-west-2:312422985030:report-group/",
+          ":codebuild:us-west-1:312422985030:report-group/",
           {
            "Ref": "PipelineBuildSynthCdkBuildProject6BEFA8E6"
           },
@@ -1213,7 +1213,7 @@
            {
             "Ref": "AWS::Partition"
            },
-           ":logs:us-west-2:312422985030:log-group:/aws/codebuild/",
+           ":logs:us-west-1:312422985030:log-group:/aws/codebuild/",
            {
             "Ref": "PipelineDeployEKSClustersEKSClusterAValidateAppValidateAppC8FEA68A"
            }
@@ -1228,7 +1228,7 @@
            {
             "Ref": "AWS::Partition"
            },
-           ":logs:us-west-2:312422985030:log-group:/aws/codebuild/",
+           ":logs:us-west-1:312422985030:log-group:/aws/codebuild/",
            {
             "Ref": "PipelineDeployEKSClustersEKSClusterAValidateAppValidateAppC8FEA68A"
            },
@@ -1255,7 +1255,7 @@
           {
            "Ref": "AWS::Partition"
           },
-          ":codebuild:us-west-2:312422985030:report-group/",
+          ":codebuild:us-west-1:312422985030:report-group/",
           {
            "Ref": "PipelineDeployEKSClustersEKSClusterAValidateAppValidateAppC8FEA68A"
           },
@@ -1393,7 +1393,7 @@
            {
             "Ref": "AWS::Partition"
            },
-           ":logs:us-west-2:312422985030:log-group:/aws/codebuild/",
+           ":logs:us-west-1:312422985030:log-group:/aws/codebuild/",
            {
             "Ref": "PipelineDeployEKSClustersEKSClusterBValidateAppValidateApp1E0A0C71"
            }
@@ -1408,7 +1408,7 @@
            {
             "Ref": "AWS::Partition"
            },
-           ":logs:us-west-2:312422985030:log-group:/aws/codebuild/",
+           ":logs:us-west-1:312422985030:log-group:/aws/codebuild/",
            {
             "Ref": "PipelineDeployEKSClustersEKSClusterBValidateAppValidateApp1E0A0C71"
            },
@@ -1435,7 +1435,7 @@
           {
            "Ref": "AWS::Partition"
           },
-          ":codebuild:us-west-2:312422985030:report-group/",
+          ":codebuild:us-west-1:312422985030:report-group/",
           {
            "Ref": "PipelineDeployEKSClustersEKSClusterBValidateAppValidateApp1E0A0C71"
           },
@@ -1883,7 +1883,7 @@
            {
             "Ref": "AWS::Partition"
            },
-           ":logs:us-west-2:312422985030:log-group:/aws/codebuild/",
+           ":logs:us-west-1:312422985030:log-group:/aws/codebuild/",
            {
             "Ref": "PipelineUpdatePipelineSelfMutationDAA41400"
            }
@@ -1898,7 +1898,7 @@
            {
             "Ref": "AWS::Partition"
            },
-           ":logs:us-west-2:312422985030:log-group:/aws/codebuild/",
+           ":logs:us-west-1:312422985030:log-group:/aws/codebuild/",
            {
             "Ref": "PipelineUpdatePipelineSelfMutationDAA41400"
            },
@@ -1925,7 +1925,7 @@
           {
            "Ref": "AWS::Partition"
           },
-          ":codebuild:us-west-2:312422985030:report-group/",
+          ":codebuild:us-west-1:312422985030:report-group/",
           {
            "Ref": "PipelineUpdatePipelineSelfMutationDAA41400"
           },
@@ -2094,7 +2094,7 @@
           {
            "Ref": "AWS::Partition"
           },
-          ":logs:us-west-2:312422985030:log-group:/aws/codebuild/*"
+          ":logs:us-west-1:312422985030:log-group:/aws/codebuild/*"
          ]
         ]
        }
@@ -2116,7 +2116,7 @@
           {
            "Ref": "AWS::Partition"
           },
-          ":codebuild:us-west-2:312422985030:report-group/*"
+          ":codebuild:us-west-1:312422985030:report-group/*"
          ]
         ]
        }
@@ -2135,7 +2135,7 @@
        "Effect": "Allow",
        "Resource": [
         {
-         "Fn::Sub": "arn:${AWS::Partition}:iam::312422985030:role/cdk-hnb659fds-file-publishing-role-312422985030-us-west-2"
+         "Fn::Sub": "arn:${AWS::Partition}:iam::312422985030:role/cdk-hnb659fds-file-publishing-role-312422985030-us-west-1"
         }
        ]
       },
@@ -2203,7 +2203,7 @@
      ]
     },
     "Source": {
-     "BuildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterA/EksPipelineStackEKSClusterAEKSClusterC0C47102.assets.json\\\" --verbose publish \\\"4288ebb3652acdf2d828b7db7ca44a7162a401ace50ebb4026e84b18a02a06ee:312422985030-us-west-2\\\"\"\n      ]\n    }\n  }\n}",
+     "BuildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterA/EksPipelineStackEKSClusterAEKSClusterC0C47102.assets.json\\\" --verbose publish \\\"4288ebb3652acdf2d828b7db7ca44a7162a401ace50ebb4026e84b18a02a06ee:312422985030-us-west-1\\\"\"\n      ]\n    }\n  }\n}",
      "Type": "CODEPIPELINE"
     },
     "Cache": {
@@ -2236,7 +2236,7 @@
      ]
     },
     "Source": {
-     "BuildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterA/EksPipelineStackEKSClusterAEKSClusterC0C47102.assets.json\\\" --verbose publish \\\"bb5bab4c5f0447395c4a03a000ed9f2f64455ef4683329e3b8873ddd8a383029:312422985030-us-west-2\\\"\"\n      ]\n    }\n  }\n}",
+     "BuildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterA/EksPipelineStackEKSClusterAEKSClusterC0C47102.assets.json\\\" --verbose publish \\\"b85605524c56e9f0244e32f3fa1ccb9a9695e697a1acfe7447201488462b3656:312422985030-us-west-1\\\"\"\n      ]\n    }\n  }\n}",
      "Type": "CODEPIPELINE"
     },
     "Cache": {
@@ -2269,7 +2269,7 @@
      ]
     },
     "Source": {
-     "BuildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterB/EksPipelineStackEKSClusterBEKSCluster1709FEDC.assets.json\\\" --verbose publish \\\"df1f919b3e6a975fcda251cac724bdb9e5eee1a8aa4b7311ecd1e3bec3978579:312422985030-us-west-2\\\"\"\n      ]\n    }\n  }\n}",
+     "BuildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterB/EksPipelineStackEKSClusterBEKSCluster1709FEDC.assets.json\\\" --verbose publish \\\"dd3598a40da8bc9aa3e0e4b3ae7ac06c81665e628691752fc1d831c39b133c5d:312422985030-us-west-1\\\"\"\n      ]\n    }\n  }\n}",
      "Type": "CODEPIPELINE"
     },
     "Cache": {
@@ -2302,7 +2302,7 @@
      ]
     },
     "Source": {
-     "BuildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterB/EksPipelineStackEKSClusterBEKSCluster1709FEDC.assets.json\\\" --verbose publish \\\"bfe6f223eff481660926cf65757991c67b44daac190fb0577648dd16527899a6:312422985030-us-west-2\\\"\"\n      ]\n    }\n  }\n}",
+     "BuildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterB/EksPipelineStackEKSClusterBEKSCluster1709FEDC.assets.json\\\" --verbose publish \\\"b4d2c81b45ac7047215d774773d9ed6dcf178c073b4a19c393740a006458ba15:312422985030-us-west-1\\\"\"\n      ]\n    }\n  }\n}",
      "Type": "CODEPIPELINE"
     },
     "Cache": {
@@ -2335,7 +2335,7 @@
      ]
     },
     "Source": {
-     "BuildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterA/EksPipelineStackEKSClusterAEKSClusterC0C47102.assets.json\\\" --verbose publish \\\"98908a88aa1d19a5175824f9f289b2d4736b7e17837f4e1ca871251a7505c02d:312422985030-us-west-2\\\"\"\n      ]\n    }\n  }\n}",
+     "BuildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterA/EksPipelineStackEKSClusterAEKSClusterC0C47102.assets.json\\\" --verbose publish \\\"98908a88aa1d19a5175824f9f289b2d4736b7e17837f4e1ca871251a7505c02d:312422985030-us-west-1\\\"\"\n      ]\n    }\n  }\n}",
      "Type": "CODEPIPELINE"
     },
     "Cache": {
@@ -2368,7 +2368,7 @@
      ]
     },
     "Source": {
-     "BuildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterA/EksPipelineStackEKSClusterAEKSClusterC0C47102.assets.json\\\" --verbose publish \\\"3b263c2ad043fd069ef446753788c36e595c82b51a70478e58258c8ef7471671:312422985030-us-west-2\\\"\"\n      ]\n    }\n  }\n}",
+     "BuildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterA/EksPipelineStackEKSClusterAEKSClusterC0C47102.assets.json\\\" --verbose publish \\\"3b263c2ad043fd069ef446753788c36e595c82b51a70478e58258c8ef7471671:312422985030-us-west-1\\\"\"\n      ]\n    }\n  }\n}",
      "Type": "CODEPIPELINE"
     },
     "Cache": {
@@ -2401,7 +2401,7 @@
      ]
     },
     "Source": {
-     "BuildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterA/EksPipelineStackEKSClusterAEKSClusterC0C47102.assets.json\\\" --verbose publish \\\"5a0165b80474734eff290897da1c8d571862f020eeaac2561c839386159c7f03:312422985030-us-west-2\\\"\"\n      ]\n    }\n  }\n}",
+     "BuildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterA/EksPipelineStackEKSClusterAEKSClusterC0C47102.assets.json\\\" --verbose publish \\\"5a0165b80474734eff290897da1c8d571862f020eeaac2561c839386159c7f03:312422985030-us-west-1\\\"\"\n      ]\n    }\n  }\n}",
      "Type": "CODEPIPELINE"
     },
     "Cache": {
@@ -2434,7 +2434,7 @@
      ]
     },
     "Source": {
-     "BuildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterA/EksPipelineStackEKSClusterAEKSClusterC0C47102.assets.json\\\" --verbose publish \\\"c5a03f09adbaa6b0a994d730878f7c614af123fff7b9439e7ca357dc66f72e92:312422985030-us-west-2\\\"\"\n      ]\n    }\n  }\n}",
+     "BuildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterA/EksPipelineStackEKSClusterAEKSClusterC0C47102.assets.json\\\" --verbose publish \\\"c5a03f09adbaa6b0a994d730878f7c614af123fff7b9439e7ca357dc66f72e92:312422985030-us-west-1\\\"\"\n      ]\n    }\n  }\n}",
      "Type": "CODEPIPELINE"
     },
     "Cache": {
@@ -2467,7 +2467,7 @@
      ]
     },
     "Source": {
-     "BuildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterA/EksPipelineStackEKSClusterAEKSClusterC0C47102.assets.json\\\" --verbose publish \\\"c6964dbf0c556ec82ce09622e99ad6f6d4e488cdaac0ef9e8492e078ec61ffed:312422985030-us-west-2\\\"\"\n      ]\n    }\n  }\n}",
+     "BuildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterA/EksPipelineStackEKSClusterAEKSClusterC0C47102.assets.json\\\" --verbose publish \\\"c6964dbf0c556ec82ce09622e99ad6f6d4e488cdaac0ef9e8492e078ec61ffed:312422985030-us-west-1\\\"\"\n      ]\n    }\n  }\n}",
      "Type": "CODEPIPELINE"
     },
     "Cache": {
@@ -2500,7 +2500,7 @@
      ]
     },
     "Source": {
-     "BuildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterA/EksPipelineStackEKSClusterAEKSClusterC0C47102.assets.json\\\" --verbose publish \\\"4bb3c91f0a389640166792537a0feb5557715eaf9537400e4c0f81cc02fea8fa:312422985030-us-west-2\\\"\"\n      ]\n    }\n  }\n}",
+     "BuildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterA/EksPipelineStackEKSClusterAEKSClusterC0C47102.assets.json\\\" --verbose publish \\\"4bb3c91f0a389640166792537a0feb5557715eaf9537400e4c0f81cc02fea8fa:312422985030-us-west-1\\\"\"\n      ]\n    }\n  }\n}",
      "Type": "CODEPIPELINE"
     },
     "Cache": {
@@ -2533,7 +2533,7 @@
      ]
     },
     "Source": {
-     "BuildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterA/EksPipelineStackEKSClusterAEKSClusterC0C47102.assets.json\\\" --verbose publish \\\"c2b7ecf3138b4c3d09c3a41dace2f5869f3a9c22f9fa632a14bd0c18a37284ee:312422985030-us-west-2\\\"\"\n      ]\n    }\n  }\n}",
+     "BuildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterA/EksPipelineStackEKSClusterAEKSClusterC0C47102.assets.json\\\" --verbose publish \\\"c2b7ecf3138b4c3d09c3a41dace2f5869f3a9c22f9fa632a14bd0c18a37284ee:312422985030-us-west-1\\\"\"\n      ]\n    }\n  }\n}",
      "Type": "CODEPIPELINE"
     },
     "Cache": {
@@ -2566,7 +2566,7 @@
      ]
     },
     "Source": {
-     "BuildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterA/EksPipelineStackEKSClusterAEKSClusterC0C47102.assets.json\\\" --verbose publish \\\"0766f96e70722e30d46d962de8c8f6197d0eb225aee0ea0e20c3c75b9e5ec3c2:312422985030-us-west-2\\\"\"\n      ]\n    }\n  }\n}",
+     "BuildSpec": "{\n  \"version\": \"0.2\",\n  \"phases\": {\n    \"install\": {\n      \"commands\": [\n        \"npm install -g cdk-assets@1\"\n      ]\n    },\n    \"build\": {\n      \"commands\": [\n        \"cdk-assets --path \\\"assembly-EksPipelineStack-EKSClusterA/EksPipelineStackEKSClusterAEKSClusterC0C47102.assets.json\\\" --verbose publish \\\"5d50e6594c867ad03d91f21ce79edf50baf1ed9305fec6c1e24bf9eeaf0867ea:312422985030-us-west-1\\\"\"\n      ]\n    }\n  }\n}",
      "Type": "CODEPIPELINE"
     },
     "Cache": {
